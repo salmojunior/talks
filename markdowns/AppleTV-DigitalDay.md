@@ -8,7 +8,7 @@ build-lists: true
 
 Mineiro, Chapter Leader do CocoaHeads BH, dev iOS desde 2011, corinthiano, viajante e viciado em queijo.
 
-![right](/Users/salmojunior/Downloads/IMG_1297.JPG)
+![right](../assets/eu.png)
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br>
 
@@ -32,7 +32,7 @@ salmo@ciandt.com
 
 ---
 
-![](/Users/salmojunior/Desktop/apps.png)
+![](../assets/AppleTVApps.png)
 
 ---
 
@@ -75,6 +75,12 @@ salmo@ciandt.com
 
 ---
 
+## Siri Remote
+
+![right](http://cdn2.knowyourmobile.com/sites/knowyourmobilecom/files/2015/11/siri_remote.jpg)
+
+---
+
 ## tvOS 
 
 ### Desenvolvimento
@@ -82,7 +88,17 @@ salmo@ciandt.com
 - SDK separado
 - 64-bit com bitcode
 - Universal Purchase
-- Swift e Objective-C
+- Não necessita suporte à versões anteriores
+
+---
+
+## tvOS 
+
+### Desenvolvimento
+
+- UIKit
+- TVMLKit
+- Swift / Objective-C / TVML / TVJS
 
 ---
 
@@ -106,15 +122,11 @@ salmo@ciandt.com
 
 ---
 
-## Siri Remote
-
-- 
-
-![right](http://cdn2.knowyourmobile.com/sites/knowyourmobilecom/files/2015/11/siri_remote.jpg)
+# Design Guidelines
 
 ---
 
-# Design Guidelines
+
 
 ---
 
@@ -122,11 +134,23 @@ salmo@ciandt.com
 
 ---
 
+
+
+---
+
 # On-Demand Resources
 
 ---
 
+
+
+---
+
 # Armazenamento de dados
+
+---
+
+
 
 ---
 
@@ -191,13 +215,13 @@ salmo@ciandt.com
 
 ## HomeKit
 
-![inline](/Users/salmojunior/Desktop/homekit.png)
+![inline](../assets/AppleTVHomeKit.png)
 
 ---
 
 ## VoiceOver
 
-![inline](/Users/salmojunior/Desktop/voice_over_large.png)
+![inline](../assets/AppleTVVoiceOver.png)
 
 ---
 
