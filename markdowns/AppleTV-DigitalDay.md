@@ -20,6 +20,7 @@ salmo@ciandt.com
 ## Agenda
 
 - Overview
+- Interação com Usuário
 - Design Guidelines
 - Focus API
 - On-Demand Resources
@@ -64,7 +65,7 @@ salmo@ciandt.com
 
 ---
 
-![left, 60%](https://brused.com.br/blog/wp-content/uploads/2016/06/apple-tv.png)
+## Apple TV
 
 - Lançamento Set/2015
 - Novo S.O. (tvOS)
@@ -73,11 +74,19 @@ salmo@ciandt.com
 - Developer Tools
 - App Store
 
+![right 60%](https://brused.com.br/blog/wp-content/uploads/2016/06/apple-tv.png)
+
 ---
 
-## Siri Remote
+## Hardware
 
-![right](http://cdn2.knowyourmobile.com/sites/knowyourmobilecom/files/2015/11/siri_remote.jpg)
+- 64-bit processador A8
+- 32 GB ou 64 GB
+- 2 GB de RAM
+- 1080p
+- HDMI
+
+![right 60%](https://brused.com.br/blog/wp-content/uploads/2016/06/apple-tv.png)
 
 ---
 
@@ -122,11 +131,179 @@ salmo@ciandt.com
 
 ---
 
+# Interação com Usuário
+
+---
+
+## Navegação
+
+- Use gestos para dar fluidez
+- Implemente o Voltar através do botão Menu
+- Não exiba opção de Voltar
+- Dar preferencia para navegação horizontal
+- Use a navegação padrão dos compoentes
+
+![right 40% autoplay loop](https://developer.apple.com/tvos/human-interface-guidelines/user-interaction/images/navigation-and-focus-fluidity.mp4)
+
+---
+
+## Foco e Seleção
+
+- Deixe nítido qual item está selecionado
+- Implemente comportamento para diferentes status
+- Nunca mostre um cursos
+
+![right 80%](https://developer.apple.com/tvos/human-interface-guidelines/user-interaction/images/user-interaction-focus.png)
+
+---
+
+## Carregando conteúdo
+
+- Deixe claro quando estiver carregando novos conteúdos
+- Aproveite esse tempo para ensinar o usuário
+
+![right 80%](https://developer.apple.com/tvos/human-interface-guidelines/user-interaction/images/user-interaction-loading-instruction.png)
+
+---
+
+## Carregando conteúdo
+
+Exiba sua tela o mais rápido possível, não faça o usuário esperar até que todo o conteúdo seja baixado.
+
+![right 80%](https://developer.apple.com/tvos/human-interface-guidelines/user-interaction/images/user-interaction-placeholder-content.png)
+
+---
+
+## Autenticação
+
+- Retarde ao máximo possível o sign-in
+- Evite o input de texto
+- Mantenha suporte a multiplos perfis
+
+![right 105%](http://core0.staticworld.net/images/article/2015/10/apple_id-100625201-large.png)
+
+---
+
+## New Siri Remote /<br>Apple TV Remote
+
+![right 60%](https://developer.apple.com/tvos/human-interface-guidelines/remote-and-controllers/images/remote-and-interaction-remote_2x.png)
+
+---
+
+## Botões
+
+- Implemente o comportamento esperado para cada botão
+- Volume, Siri e Home são botões restritos
+
+![right](http://cdn2.knowyourmobile.com/sites/knowyourmobilecom/files/2015/11/siri_remote.jpg)
+
+---
+
+## Gestos
+
+``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` Swipe ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` Click ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` Tap
+
+![inline autoplay loop](https://developer.apple.com/tvos/human-interface-guidelines/remote-and-controllers/images/swipe.mp4) ![inline autoplay loop](https://developer.apple.com/tvos/human-interface-guidelines/remote-and-controllers/images/click.mp4) ![inline autoplay loop](https://developer.apple.com/tvos/human-interface-guidelines/remote-and-controllers/images/tap.mp4)
+
+---
+
 # Design Guidelines
 
 ---
 
+## Otimize seus assets para tela grande
 
+- Desenvolva para resolução de 1920x1080
+- Assets somente @1x
+- Teste suas imagens na TV
+
+![right 120%](https://developer.apple.com/tvos/human-interface-guidelines/visual-design/images/visual-design-16x9.png)
+
+---
+
+## Mantenha seu conteúdo principal distante das bordas
+
+- 60 píxeis para Top e Bottom
+- 90 píxeis para os lados
+
+![right 120%](https://developer.apple.com/tvos/human-interface-guidelines/visual-design/images/visual-design-safe-zone.png)
+
+---
+
+## Mantenha distância entre elementos
+
+Com UIKit e Focus API, elementos de UI ficam maiores ao receber o foco.
+
+![right 120%](https://developer.apple.com/tvos/human-interface-guidelines/visual-design/images/visual-design-padding.png)
+
+---
+
+## Mostre partes de elementos escondidos
+
+Indique sempre que existe mais conteúdo fora area da tela, facilitando assim o acesso pelo usuário.
+
+![right 120%](https://developer.apple.com/tvos/human-interface-guidelines/visual-design/images/visual-design-peeking.png)
+
+---
+
+## Faça uso de Grids
+
+- Fácil de encontrar conteúdo a distância
+- Rápido de navegar com o controle
+
+![right 80%](https://developer.apple.com/tvos/human-interface-guidelines/visual-design/images/visual-design-grid-3-column.png)
+
+---
+
+## Ícone
+
+- Crie ícones com apenas um foco de atenção
+- Mantenha o background simples
+- Use texto somente quando for essencial ou parte do logo
+- Mantenha as bordas do ícone quadradas
+
+![right 80%](https://developer.apple.com/tvos/human-interface-guidelines/icons-and-images/images/icons-and-images-app-icon-grid.png)
+
+---
+
+## Ícone
+
+Seu ícone deve ter entre 2 e 5 camadas para dar a sensação de profundidade e vitalidae quando estiver em foco.
+
+
+![right 100%](https://developer.apple.com/tvos/human-interface-guidelines/icons-and-images/images/icons-and-images-icon-structure.png)
+
+---
+
+## Ícone
+
+É preciso prover dois tamanhos de ícones
+
+- Apple TV Home Screen
+
+	- 400 X 240 px
+
+- App Store
+	
+	- 1280 X 768 px
+
+![right 100%](../assets/AppSize.png)
+
+---
+
+## Paralaxe
+
+Use paralaxe para tornar itens com foco ainda mais responsiveis à interação do usuário.
+ 
+![right](http://designmodo.com/demo/apple-tv-parallax/apple-tv-poster.gif)
+
+---
+
+## Paralaxe
+
+- 
+
+![right autoplay loop 100%](https://developer.apple.com/tvos/human-interface-guidelines/images/overview-parallax-artwork.mp4)
 
 ---
 
@@ -142,11 +319,47 @@ salmo@ciandt.com
 
 ---
 
+## ODR
+
+- 
+
+![100% right](../assets/ondemand.png)
+
+---
+
+## Por que usar ODR?
+
+- Aplicativo disponível para uso em poucos segundos
+- Armazenamento remoto de arquivos raramente usados
+- Armazenamento remote de arquivo in-app purchase
+
+![100% right](../assets/ondemand.png)
+
+---
+
 
 
 ---
 
 # Armazenamento de dados
+
+---
+
+## 
+
+- 
+
+![100% right](../assets/cloud.png)
+
+---
+
+## Meio recomendados
+
+- iCloud (+1 MB)
+- CloudKit
+- Outro Cloud Storage desejado
+
+![100% right](../assets/cloud.png)
 
 ---
 
@@ -210,6 +423,12 @@ salmo@ciandt.com
 - Somente a partir do iOS 10
 
 ![right 70%](http://images.apple.com/v/tv/f/images/overview/tvos_update_tv_large.jpg)
+
+---
+
+## Customize suas telas de loading
+
+![right autoplay loop 80%](https://developer.apple.com/tvos/human-interface-guidelines/user-interaction/images/user-interaction-progress-explicit.mp4)
 
 ---
 
