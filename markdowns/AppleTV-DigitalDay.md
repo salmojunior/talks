@@ -41,10 +41,6 @@ salmo@ciandt.com
 
 ---
 
-![](http://media.148apps.com/screenshots/919000809/us-appletv-5-zova-personal-trainer.png)
-
----
-
 ![](http://tock.cdn.assets.watchaware.com/wp-content/uploads/2015/10/zova.png)
 
 ---
@@ -207,6 +203,12 @@ Exiba sua tela o mais rápido possível, não faça o usuário esperar até que 
 
 ---
 
+## Acelerômetro e Giroscópio
+
+![inline](http://static3.techinsider.io/image/562fa8bdbd86ef1b008c5192-1920-1080/screen%20shot%202015-10-27%20at%2012.38.30%20pm.png)
+
+---
+
 # Design Guidelines
 
 ---
@@ -255,6 +257,23 @@ Indique sempre que existe mais conteúdo fora area da tela, facilitando assim o 
 
 ---
 
+## Paralaxe
+
+Use paralaxe para tornar itens com foco ainda mais responsiveis a interação do usuário.
+ 
+![right](http://designmodo.com/demo/apple-tv-parallax/apple-tv-poster.gif)
+
+---
+
+## Paralaxe Tools
+
+- Parallax Previewer para macOS
+- Parallax Exporter Plug-In para Adobe Photoshop
+
+![right 50%](https://7c8767f40fd77b0a0655-213ce4ca2fa294c548547246ac17375c.ssl.cf1.rackcdn.com/parallax.jpg)
+
+---
+
 ## Ícone
 
 - Crie ícones com apenas um foco de atenção
@@ -263,15 +282,6 @@ Indique sempre que existe mais conteúdo fora area da tela, facilitando assim o 
 - Mantenha as bordas do ícone quadradas
 
 ![right 80%](https://developer.apple.com/tvos/human-interface-guidelines/icons-and-images/images/icons-and-images-app-icon-grid.png)
-
----
-
-## Ícone
-
-Seu ícone deve ter entre 2 e 5 camadas para dar a sensação de profundidade e vitalidae quando estiver em foco.
-
-
-![right 100%](https://developer.apple.com/tvos/human-interface-guidelines/icons-and-images/images/icons-and-images-icon-structure.png)
 
 ---
 
@@ -291,19 +301,12 @@ Seu ícone deve ter entre 2 e 5 camadas para dar a sensação de profundidade e 
 
 ---
 
-## Paralaxe
+## Ícone
 
-Use paralaxe para tornar itens com foco ainda mais responsiveis à interação do usuário.
- 
-![right](http://designmodo.com/demo/apple-tv-parallax/apple-tv-poster.gif)
+Seu ícone deve ter entre 2 e 5 camadas para dar a sensação de profundidade e vitalidae quando estiver em foco.
 
----
 
-## Paralaxe
-
-- 
-
-![right autoplay loop 100%](https://developer.apple.com/tvos/human-interface-guidelines/images/overview-parallax-artwork.mp4)
+![right 100%](https://developer.apple.com/tvos/human-interface-guidelines/icons-and-images/images/icons-and-images-icon-structure.png)
 
 ---
 
@@ -311,7 +314,11 @@ Use paralaxe para tornar itens com foco ainda mais responsiveis à interação d
 
 ---
 
+## 
 
+- 
+ 
+![right autoplay loop 40%](https://developer.apple.com/tvos/human-interface-guidelines/user-interaction/images/navigation-and-focus-tilt-screen.mp4)
 
 ---
 
@@ -345,9 +352,9 @@ Use paralaxe para tornar itens com foco ainda mais responsiveis à interação d
 
 ---
 
-## 
+## Armazenamento de dados
 
-- 
+O armazenamento local na Apple TV é limitado, não há garantia que as informações vão continuar no device na próxima vez que foi utilizado.
 
 ![100% right](../assets/cloud.png)
 
@@ -355,15 +362,11 @@ Use paralaxe para tornar itens com foco ainda mais responsiveis à interação d
 
 ## Meio recomendados
 
-- iCloud (+1 MB)
+- iCloud Key-Value Storage
 - CloudKit
-- Outro Cloud Storage desejado
+- Cloud Storage desejado
 
 ![100% right](../assets/cloud.png)
-
----
-
-
 
 ---
 
