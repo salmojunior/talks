@@ -24,7 +24,7 @@ salmo@ciandt.com
 - Design Guidelines
 - Focus API
 - On-Demand Resources
-- Armazenamento de dados
+- TVMLKit
 - Dicas
 
 ---
@@ -119,11 +119,35 @@ salmo@ciandt.com
 
 ## tvOS
 
-## Sempre conectado
+### Sempre conectado
 
 - Live Streaming
 - On-Demand Resources
 - Cloud Storage
+
+---
+
+## tvOS
+
+### Armazenamento de dados
+
+- Armazenamento local limitado
+- Não há garantia que as informações vão continuar no device na próxima vez que foi utilizado.
+- A pasta Documents existe, mas não tem permissão de escrita.
+
+![100% right](../assets/cloud.png)
+
+---
+
+## tvOS
+
+### Armazenamento de dados
+
+- iCloud Key-Value Storage
+- CloudKit
+- Cloud Storage desejado
+
+![100% right](../assets/cloud.png)
 
 ---
 
@@ -164,6 +188,14 @@ salmo@ciandt.com
 
 ## Carregando conteúdo
 
+Customize suas telas de loading
+
+![right autoplay loop 80%](https://developer.apple.com/tvos/human-interface-guidelines/user-interaction/images/user-interaction-progress-explicit.mp4)
+
+---
+
+## Carregando conteúdo
+
 Exiba sua tela o mais rápido possível, não faça o usuário esperar até que todo o conteúdo seja baixado.
 
 ![right 80%](https://developer.apple.com/tvos/human-interface-guidelines/user-interaction/images/user-interaction-placeholder-content.png)
@@ -197,7 +229,8 @@ Exiba sua tela o mais rápido possível, não faça o usuário esperar até que 
 
 ## Gestos
 
-``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` Swipe ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` Click ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` Tap
+``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` Swipe ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` Click ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` Tap 
+
 
 ![inline autoplay loop](https://developer.apple.com/tvos/human-interface-guidelines/remote-and-controllers/images/swipe.mp4) ![inline autoplay loop](https://developer.apple.com/tvos/human-interface-guidelines/remote-and-controllers/images/click.mp4) ![inline autoplay loop](https://developer.apple.com/tvos/human-interface-guidelines/remote-and-controllers/images/tap.mp4)
 
@@ -260,7 +293,12 @@ Indique sempre que existe mais conteúdo fora area da tela, facilitando assim o 
 ## Paralaxe
 
 Use paralaxe para tornar itens com foco ainda mais responsiveis a interação do usuário.
- 
+
+Extensões:
+
+- .lsr
+- .lcr
+
 ![right](http://designmodo.com/demo/apple-tv-parallax/apple-tv-poster.gif)
 
 ---
@@ -269,8 +307,32 @@ Use paralaxe para tornar itens com foco ainda mais responsiveis a interação do
 
 - Parallax Previewer para macOS
 - Parallax Exporter Plug-In para Adobe Photoshop
+- Xcode
 
 ![right 50%](https://7c8767f40fd77b0a0655-213ce4ca2fa294c548547246ac17375c.ssl.cf1.rackcdn.com/parallax.jpg)
+
+---
+
+## Criando imagens LSR pelo Xcode
+
+- Basta adicionar seus PNGs no Assets Catalog e organizá-las usando o menu esquerdo.
+- É possível exportar a imagem em formato LSR
+- E também adicionar um arquivo LSR direto ao projeto
+
+
+![right 95%](https://developer.apple.com/library/tvos/documentation/General/Conceptual/AppleTV_PG/Art/xcodeimages_2x.png)
+
+---
+
+## Criando imagens LCR pelo Xcode
+
+Para usar paralaxe em imagens fora do Bundle da app, é preciso converte-las para o formato .lcr
+
+Basta usar a `layerutil` command-line tool que vem instalada junto com o Xcode.
+
+```
+xcrun —-sdk appletvos layerutil —-c <filename.lsr>
+```
 
 ---
 
@@ -326,15 +388,19 @@ Seu ícone deve ter entre 2 e 5 camadas para dar a sensação de profundidade e 
 
 ---
 
-## ODR
+## On-Demand Resources
 
-- 
+Recurso lançado no iOS 9 que permite armazenar conteúdo na App Store, separado do bundle de uma aplicação.
+
+Conteúdo baixado somente quando necessário.
 
 ![100% right](../assets/ondemand.png)
 
 ---
 
-## Por que usar ODR?
+##On-Demand Resources
+
+### Por que usar ODR?
 
 - Aplicativo disponível para uso em poucos segundos
 - Armazenamento remoto de arquivos raramente usados
@@ -348,25 +414,41 @@ Seu ícone deve ter entre 2 e 5 camadas para dar a sensação de profundidade e 
 
 ---
 
-# Armazenamento de dados
+# TVMLKit
 
 ---
 
-## Armazenamento de dados
+## TVMLKit
 
-O armazenamento local na Apple TV é limitado, não há garantia que as informações vão continuar no device na próxima vez que foi utilizado.
+Usado para criar aplicações Client-Server.
 
-![100% right](../assets/cloud.png)
+É composto pela combinação de 3 frameworks
+
+- TVML
+- TVMLKit JS
+- TVMLKit
+
+![right 90%](http://devstreaming.apple.com/videos/wwdc/2016/212s41rh77qgdg26s86/212/images/212_734x413.jpg)
 
 ---
 
-## Meio recomendados
+## TVMLKit
 
-- iCloud Key-Value Storage
-- CloudKit
-- Cloud Storage desejado
+Aplicação Client-Server
 
-![100% right](../assets/cloud.png)
+![inline 65%](https://developer.apple.com/library/tvos/documentation/General/Conceptual/AppleTV_PG/Art/flow_diagram_2x.png)
+
+---
+
+## TVMLKit
+
+Fluxo de uma aplicação 
+Client-Server
+
+<br>
+#### Para garantir que todas últimas alterações estejam visiveis para o usuário, adicione sempre `Cache-Control:no-cache` no header de response da sua requisição HTTP.
+
+![right 75%](https://developer.apple.com/library/tvos/documentation/General/Conceptual/AppleTV_PG/Art/flow_diagram2_2x.png)
 
 ---
 
@@ -426,12 +508,6 @@ O armazenamento local na Apple TV é limitado, não há garantia que as informa�
 - Somente a partir do iOS 10
 
 ![right 70%](http://images.apple.com/v/tv/f/images/overview/tvos_update_tv_large.jpg)
-
----
-
-## Customize suas telas de loading
-
-![right autoplay loop 80%](https://developer.apple.com/tvos/human-interface-guidelines/user-interaction/images/user-interaction-progress-explicit.mp4)
 
 ---
 
