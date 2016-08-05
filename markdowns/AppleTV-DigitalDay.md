@@ -1,4 +1,4 @@
-build-lists: true
+<!-- build-lists: true -->
 
 # Criando aplicativos para a nova Apple TV
 
@@ -88,7 +88,7 @@ salmo@ciandt.com
 
 ## tvOS 
 
-### Desenvolvimento
+Desenvolvimento
 
 - SDK separado
 - 64-bit com bitcode
@@ -99,7 +99,7 @@ salmo@ciandt.com
 
 ## tvOS 
 
-### Desenvolvimento
+Desenvolvimento
 
 - UIKit
 - TVMLKit
@@ -109,7 +109,7 @@ salmo@ciandt.com
 
 ## tvOS
 
-### Experiencia de uso
+Experiencia de uso
 
 - Interação baseada em foco
 - Utilizacão em família
@@ -119,7 +119,7 @@ salmo@ciandt.com
 
 ## tvOS
 
-### Sempre conectado
+Sempre conectado
 
 - Live Streaming
 - On-Demand Resources
@@ -129,11 +129,11 @@ salmo@ciandt.com
 
 ## tvOS
 
-### Armazenamento de dados
+Armazenamento de dados
 
 - Armazenamento local limitado
-- Não há garantia que as informações vão continuar no device na próxima vez que foi utilizado.
-- A pasta Documents existe, mas não tem permissão de escrita.
+- Não há garantia que as informações vão continuar no device na próxima vez que foi utilizado
+- A pasta Documents existe, mas não tem permissão de escrita
 
 ![100% right](../assets/cloud.png)
 
@@ -141,7 +141,7 @@ salmo@ciandt.com
 
 ## tvOS
 
-### Armazenamento de dados
+Armazenamento de dados
 
 - iCloud Key-Value Storage
 - CloudKit
@@ -209,6 +209,45 @@ Exiba sua tela o mais rápido possível, não faça o usuário esperar até que 
 - Mantenha suporte a multiplos perfis
 
 ![right 105%](http://core0.staticworld.net/images/article/2015/10/apple_id-100625201-large.png)
+
+---
+
+## Top Shelf
+
+![inline](https://developer.apple.com/tvos/human-interface-guidelines/icons-and-images/images/icons-and-images-static-image.png)
+
+---
+
+## Top Shelf
+
+Faça uso dos conteúdos dinâmicos
+
+- Atalhos 
+- Exibir favoritos
+- Mostre conteúdo atrativo
+- Não usar para propagandas e ofertas com preços
+
+---
+
+## Top Shelf
+
+Sectioned Content Row
+
+- Necessário conteúdo suficiente para completar uma linha
+
+![right 80%](https://developer.apple.com/tvos/human-interface-guidelines/icons-and-images/images/icons-and-images-content-row.png)
+
+---
+
+## Top Shelf
+
+Scrolling Inset Banner 
+
+- Necessário entre 3 e 8 imagens
+- Textos somente dentro da imagem
+- Scroll automatico entre os banners
+
+![right 80%](http://developer.apple.com/tvos/human-interface-guidelines/icons-and-images/images/icons-and-images-scrolling-inset.png)
 
 ---
 
@@ -290,9 +329,9 @@ Indique sempre que existe mais conteúdo fora area da tela, facilitando assim o 
 
 ---
 
-## Paralaxe
+## Parallax
 
-Use paralaxe para tornar itens com foco ainda mais responsiveis a interação do usuário.
+Use parallax para tornar itens com foco ainda mais responsiveis a interação do usuário.
 
 Extensões:
 
@@ -303,7 +342,7 @@ Extensões:
 
 ---
 
-## Paralaxe Tools
+## Parallax Tools
 
 - Parallax Previewer para macOS
 - Parallax Exporter Plug-In para Adobe Photoshop
@@ -326,7 +365,7 @@ Extensões:
 
 ## Criando imagens LCR pelo Xcode
 
-Para usar paralaxe em imagens fora do Bundle da app, é preciso converte-las para o formato .lcr
+Para usar parallax em imagens fora do Bundle da app, é preciso converte-las para o formato .lcr
 
 Basta usar a `layerutil` command-line tool que vem instalada junto com o Xcode.
 
@@ -376,11 +415,51 @@ Seu ícone deve ter entre 2 e 5 camadas para dar a sensação de profundidade e 
 
 ---
 
-## 
+## Focus API
+
+Introdução....
+ 
+![right]()
+
+---
+
+## Focus API
+
+### 
+
+- 
+ 
+![right]()
+
+---
+
+## Focus API
+
+Preferred Focus
+
+- 
+ 
+![right]()
+
+---
+
+## Focus API
+
+### 
 
 - 
  
 ![right autoplay loop 40%](https://developer.apple.com/tvos/human-interface-guidelines/user-interaction/images/navigation-and-focus-tilt-screen.mp4)
+
+---
+
+## Focus API
+
+Restoring Focus
+
+- 
+ 
+![right]()
 
 ---
 
@@ -390,7 +469,7 @@ Seu ícone deve ter entre 2 e 5 camadas para dar a sensação de profundidade e 
 
 ## On-Demand Resources
 
-Recurso lançado no iOS 9 que permite armazenar conteúdo na App Store, separado do bundle de uma aplicação.
+Recurso lançado no iOS 9 que permite armazenar conteúdo na App Store, separado do bundle da aplicação.
 
 Conteúdo baixado somente quando necessário.
 
@@ -398,19 +477,80 @@ Conteúdo baixado somente quando necessário.
 
 ---
 
-##On-Demand Resources
+## On-Demand Resources
 
-### Por que usar ODR?
+Por que usar?
 
 - Aplicativo disponível para uso em poucos segundos
 - Armazenamento remoto de arquivos raramente usados
 - Armazenamento remote de arquivo in-app purchase
 
-![100% right](../assets/ondemand.png)
+![inline](https://developer.apple.com/library/ios/documentation/FileManagement/Conceptual/On_Demand_Resources_Guide/Art/adventure_odr_2x.png)
 
 ---
 
+## On-Demand Resources
 
+Por que usar para tvOS?
+
+- App de no máximo 200mb para a App Store
+- Apple TV não permite armazenamento local de dados
+- Device conectado 100% do tempo
+
+---
+
+## On-Demand Resources
+
+Os arquivos podem ser divididos em 3 tipos de tags
+
+- Initial install
+- Prefetch
+- On demand
+
+---
+
+## On-Demand Resources
+
+Limites
+
+![inline](../assets/on-demand-resources.jpg)
+
+---
+
+## On-Demand Resources
+
+Boas práticas
+
+- Tente criar tags de no máximo 64mb
+- Baixe sempre com antecedência
+- Descarte os arquivos quando não forem mais necessários
+
+---
+
+## On-Demand Resources
+
+Habilitando ODR no Xcode
+
+![inline](https://developer.apple.com/library/ios/documentation/FileManagement/Conceptual/On_Demand_Resources_Guide/Art/ODR_Enabling_ODR_2x.png)
+
+---
+
+## On-Demand Resources
+
+Criando tags
+
+![inline](https://developer.apple.com/library/ios/documentation/FileManagement/Conceptual/On_Demand_Resources_Guide/Art/ODR_Resource_Tags_Pane_Prefetch_2x.png)
+
+---
+
+## On-Demand Resources
+
+Use a classe **NSBundleResourceRequest** para
+
+- Requisitar/Descartar on-demand resources
+- Atualizar a prioridade dos downloads
+- Acompanhar progresso de download
+- Receber notificação de falta de espaço em disco
 
 ---
 
@@ -456,51 +596,6 @@ Client-Server
 
 ---
 
-## Top Shelf
-
-![inline](https://developer.apple.com/tvos/human-interface-guidelines/icons-and-images/images/icons-and-images-static-image.png)
-
----
-
-## Top Shelf
-
-### Sectioned Content Row
-
-- Necessário conteúdo suficiente para completar uma linha
-
-![right 80%](https://developer.apple.com/tvos/human-interface-guidelines/icons-and-images/images/icons-and-images-content-row.png)
-
----
-
-## Top Shelf
-
-### Scrolling Inset Banner 
-
-- Necessário entre 3 e 8 imagens
-- Textos somente dentro da imagem
-- Scroll automatico entre os banners
-
-![right 80%](http://developer.apple.com/tvos/human-interface-guidelines/icons-and-images/images/icons-and-images-scrolling-inset.png)
-
----
-
-## Top Shelf
-
-### Como aproveitar da melhor forma com conteúdo dinâmico
-
-- Atalho para conteúdo
-- Exibir favoritos
-- Conteúdo atrativo
-- Não usar para propagandas e ofertas com preços
-
----
-
-## Dark Appearence
-
-![inline](http://media.idownloadblog.com/wp-content/uploads/2016/07/tvOS-10-Settings-Light-Mode-Apple-TV-screenshot-001.jpg) ![inline](http://media.idownloadblog.com/wp-content/uploads/2016/07/tvOS-10-Settings-Dark-Mode-Apple-TV-screenshot-001.jpg)
-
----
-
 ## Dark Appearence
 
 - Adote os dois modos
@@ -508,6 +603,12 @@ Client-Server
 - Somente a partir do iOS 10
 
 ![right 70%](http://images.apple.com/v/tv/f/images/overview/tvos_update_tv_large.jpg)
+
+---
+
+## Dark Appearence
+
+![inline](http://media.idownloadblog.com/wp-content/uploads/2016/07/tvOS-10-Settings-Light-Mode-Apple-TV-screenshot-001.jpg) ![inline](http://media.idownloadblog.com/wp-content/uploads/2016/07/tvOS-10-Settings-Dark-Mode-Apple-TV-screenshot-001.jpg)
 
 ---
 
