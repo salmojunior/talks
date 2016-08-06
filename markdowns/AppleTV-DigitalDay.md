@@ -253,7 +253,7 @@ Scrolling Inset Banner
 
 ## New Siri Remote /<br>Apple TV Remote
 
-![right 60%](https://developer.apple.com/tvos/human-interface-guidelines/remote-and-controllers/images/remote-and-interaction-remote_2x.png)
+<!--![right 60%](https://developer.apple.com/tvos/human-interface-guidelines/remote-and-controllers/images/remote-and-interaction-remote_2x.png)-->
 
 ---
 
@@ -268,8 +268,7 @@ Scrolling Inset Banner
 
 ## Gestos
 
-``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` Swipe ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` Click ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` ``` Tap 
-
+<br>
 
 ![inline autoplay loop](https://developer.apple.com/tvos/human-interface-guidelines/remote-and-controllers/images/swipe.mp4) ![inline autoplay loop](https://developer.apple.com/tvos/human-interface-guidelines/remote-and-controllers/images/click.mp4) ![inline autoplay loop](https://developer.apple.com/tvos/human-interface-guidelines/remote-and-controllers/images/tap.mp4)
 
@@ -404,7 +403,7 @@ xcrun —-sdk appletvos layerutil —-c <filename.lsr>
 
 ## Ícone
 
-Seu ícone deve ter entre 2 e 5 camadas para dar a sensação de profundidade e vitalidae quando estiver em foco.
+Seu ícone deve ter entre 2 e 5 camadas para dar a sensação de profundidade e vitalidade quando estiver em foco.
 
 
 ![right 100%](https://developer.apple.com/tvos/human-interface-guidelines/icons-and-images/images/icons-and-images-icon-structure.png)
@@ -417,39 +416,94 @@ Seu ícone deve ter entre 2 e 5 camadas para dar a sensação de profundidade e 
 
 ## Focus API
 
-Introdução....
- 
-![right]()
+<br>
+
+Conjunto de métodos e propriedades que padronizam a interação do usuário com aplicativos para tvOS, evitando que cada desenvolvedor implemente comportamentos customizados.
+
+![right autoplay loop 40%](https://developer.apple.com/tvos/human-interface-guidelines/user-interaction/images/navigation-and-focus-swipe-screen.mp4)
 
 ---
 
 ## Focus API
 
-### 
-
-- 
+- UIButton
+- UIControl
+- UISegmentedControl
+- UITabBar
+- UITextField
+- UISearchBar
+- UITableViewCell
+- UICollectionViewCell
  
-![right]()
+![right 150%](http://nerds.airbnb.com/wp-content/uploads/2015/09/buttons.png)
 
 ---
 
 ## Focus API
 
-Preferred Focus
+Como verificar se um elemento pode receber foco
 
-- 
- 
-![right]()
+<br>
+
+```swift
+UIButton().canBecomeFocused() // true
+UILabel().canBecomeFocused()  // false
+
+collectionView(_:canFocusItemAtIndexPath:)
+tableView(_:canFocusRowAtIndexPath:)
+
+```
 
 ---
 
 ## Focus API
 
-### 
+Como verificar qual elemento está em foco
 
-- 
- 
-![right autoplay loop 40%](https://developer.apple.com/tvos/human-interface-guidelines/user-interaction/images/navigation-and-focus-tilt-screen.mp4)
+<br>
+
+```swift
+myButton.focused // true or false
+
+UIScreen.mainScreen().focusedView // possibly nil
+```
+
+---
+
+## Focus API
+
+UIFocusEnvironment Protocol
+
+<br>
+
+```swift
+// iOS 9
+var preferredFocusedView: UIView?
+
+// iOS 10
+var preferredFocusEnvironments: 
+[UIFocusEnvironment]
+```
+
+![right 60%](https://developer.apple.com/library/prerelease/content/documentation/General/Conceptual/AppleTV_PG/Art/search_hierarchy_2x.png)
+
+---
+
+## Focus API
+
+UIFocusEnvironment Protocol
+
+<br>
+
+```swift
+func setNeedsFocusUpdate()
+func updateFocusIfNeeded()
+
+func shouldUpdateFocus(in: UIFocusUpdateContext)
+
+func didUpdateFocus(in: UIFocusUpdateContext, with:
+UIFocusAnimationCoordinator)
+```
 
 ---
 
@@ -457,9 +511,22 @@ Preferred Focus
 
 Restoring Focus
 
-- 
+```swift
+// iOS 10
+public class UIViewController : ... {
+	public var restoresFocusAfterTransition: Bool
+}
+```
  
-![right]()
+![inline 60%](../assets/RestoringFocus.png)
+
+---
+
+## Focus API
+
+
+ 
+![right autoplay loop 40%](https://developer.apple.com/tvos/human-interface-guidelines/user-interaction/images/navigation-and-focus-tilt-screen.mp4)
 
 ---
 
