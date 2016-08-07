@@ -65,7 +65,7 @@ salmo@ciandt.com
 
 - Lançamento Set/2015
 - Novo S.O. (tvOS)
-- Experiencia personalizada
+- Experiência personalizada
 - Acessibilidade
 - Developer Tools
 - App Store
@@ -76,7 +76,7 @@ salmo@ciandt.com
 
 ## Hardware
 
-- 64-bit processador A8
+- 64-bit com processador A8
 - 32 GB ou 64 GB
 - 2 GB de RAM
 - 1080p
@@ -93,7 +93,7 @@ Desenvolvimento
 - SDK separado
 - 64-bit com bitcode
 - Universal Purchase
-- Não necessita suporte à versões anteriores
+- Não suporta as versões anteriores
 
 ---
 
@@ -103,13 +103,13 @@ Desenvolvimento
 
 - UIKit
 - TVMLKit
-- Swift / Objective-C / TVML / TVJS
+- Swift / Objective-C / TVML e TVJS
 
 ---
 
 ## tvOS
 
-Experiencia de uso
+Experiência de uso
 
 - Interação baseada em foco
 - Utilizacão em família
@@ -132,7 +132,7 @@ Sempre conectado
 Armazenamento de dados
 
 - Armazenamento local limitado
-- Não há garantia que as informações vão continuar no device na próxima vez que foi utilizado
+- Não há garantia que as informações vão continuar no device
 - A pasta Documents existe, mas não tem permissão de escrita
 
 ![100% right](../assets/cloud.png)
@@ -158,10 +158,10 @@ Armazenamento de dados
 ## Navegação
 
 - Use gestos para dar fluidez
-- Implemente o Voltar através do botão Menu
+- Implemente de voltar através do botão Menu
 - Não exiba opção de Voltar
-- Dar preferencia para navegação horizontal
-- Use a navegação padrão dos compoentes
+- Dar preferência para navegação horizontal
+- Use a navegação padrão dos componentes
 
 ![right 40% autoplay loop](https://developer.apple.com/tvos/human-interface-guidelines/user-interaction/images/navigation-and-focus-fluidity.mp4)
 
@@ -188,7 +188,7 @@ Armazenamento de dados
 
 ## Carregando conteúdo
 
-Customize suas telas de loading
+- Customize suas telas de loading
 
 ![right autoplay loop 80%](https://developer.apple.com/tvos/human-interface-guidelines/user-interaction/images/user-interaction-progress-explicit.mp4)
 
@@ -196,7 +196,7 @@ Customize suas telas de loading
 
 ## Carregando conteúdo
 
-Exiba sua tela o mais rápido possível, não faça o usuário esperar até que todo o conteúdo seja baixado.
+- Mostre sua tela o mais rápido possível, não faça o usuário esperar até que todo o conteúdo seja carregado
 
 ![right 80%](https://developer.apple.com/tvos/human-interface-guidelines/user-interaction/images/user-interaction-placeholder-content.png)
 
@@ -204,7 +204,7 @@ Exiba sua tela o mais rápido possível, não faça o usuário esperar até que 
 
 ## Autenticação
 
-- Retarde ao máximo possível o sign-in
+- Retarde ao máximo o sign-in
 - Evite o input de texto
 - Mantenha suporte a multiplos perfis
 
@@ -224,14 +224,14 @@ Faça uso dos conteúdos dinâmicos
 
 - Atalhos 
 - Exibir favoritos
-- Mostre conteúdo atrativo
+- Mostrar conteúdo atrativo
 - Não usar para propagandas e ofertas com preços
 
 ---
 
 ## Top Shelf
 
-Sectioned Content Row
+Conteúdo dinâmico - Coleção
 
 - Necessário conteúdo suficiente para completar uma linha
 
@@ -241,11 +241,11 @@ Sectioned Content Row
 
 ## Top Shelf
 
-Scrolling Inset Banner 
+Conteúdo dinâmico - Banners
 
 - Necessário entre 3 e 8 imagens
 - Textos somente dentro da imagem
-- Scroll automatico entre os banners
+- Scroll automático entre os banners
 
 ![right 80%](http://developer.apple.com/tvos/human-interface-guidelines/icons-and-images/images/icons-and-images-scrolling-inset.png)
 
@@ -257,7 +257,9 @@ Scrolling Inset Banner
 
 ---
 
-## Botões
+## New Siri Remote
+
+Botões
 
 - Implemente o comportamento esperado para cada botão
 - Volume, Siri e Home são botões restritos
@@ -266,15 +268,17 @@ Scrolling Inset Banner
 
 ---
 
-## Gestos
+## New Siri Remote
 
-<br>
+Gestos
 
 ![inline autoplay loop](https://developer.apple.com/tvos/human-interface-guidelines/remote-and-controllers/images/swipe.mp4) ![inline autoplay loop](https://developer.apple.com/tvos/human-interface-guidelines/remote-and-controllers/images/click.mp4) ![inline autoplay loop](https://developer.apple.com/tvos/human-interface-guidelines/remote-and-controllers/images/tap.mp4)
 
 ---
 
-## Acelerômetro e Giroscópio
+## New Siri Remote
+
+Acelerômetro e Giroscópio
 
 ![inline](http://static3.techinsider.io/image/562fa8bdbd86ef1b008c5192-1920-1080/screen%20shot%202015-10-27%20at%2012.38.30%20pm.png)
 
@@ -284,7 +288,9 @@ Scrolling Inset Banner
 
 ---
 
-## Otimize seus assets para tela grande
+## Design Guidelines
+
+Otimize seus assets para tela grande
 
 - Desenvolva para resolução de 1920x1080
 - Assets somente @1x
@@ -294,7 +300,9 @@ Scrolling Inset Banner
 
 ---
 
-## Mantenha seu conteúdo principal distante das bordas
+## Design Guidelines
+
+Mantenha seu conteúdo principal distante das bordas
 
 - 60 píxeis para Top e Bottom
 - 90 píxeis para os lados
@@ -303,7 +311,9 @@ Scrolling Inset Banner
 
 ---
 
-## Mantenha distância entre elementos
+## Design Guidelines
+
+Mantenha distância entre elementos.
 
 Com UIKit e Focus API, elementos de UI ficam maiores ao receber o foco.
 
@@ -311,15 +321,19 @@ Com UIKit e Focus API, elementos de UI ficam maiores ao receber o foco.
 
 ---
 
-## Mostre partes de elementos escondidos
+## Design Guidelines
 
-Indique sempre que existe mais conteúdo fora area da tela, facilitando assim o acesso pelo usuário.
+Mostre partes de elementos escondidos
+
+- Indique sempre que existe mais conteúdo fora area da tela, facilitando assim o acesso pelo usuário.
 
 ![right 120%](https://developer.apple.com/tvos/human-interface-guidelines/visual-design/images/visual-design-peeking.png)
 
 ---
 
-## Faça uso de Grids
+## Design Guidelines
+
+Faça uso de Grids
 
 - Fácil de encontrar conteúdo a distância
 - Rápido de navegar com o controle
@@ -328,7 +342,9 @@ Indique sempre que existe mais conteúdo fora area da tela, facilitando assim o 
 
 ---
 
-## Parallax
+## Design Guidelines
+
+Parallax
 
 Use parallax para tornar itens com foco ainda mais responsiveis a interação do usuário.
 
@@ -341,7 +357,9 @@ Extensões:
 
 ---
 
-## Parallax Tools
+## Design Guidelines
+
+Parallax Tools
 
 - Parallax Previewer para macOS
 - Parallax Exporter Plug-In para Adobe Photoshop
@@ -351,30 +369,35 @@ Extensões:
 
 ---
 
-## Criando imagens LSR pelo Xcode
+## Design Guidelines
 
-- Basta adicionar seus PNGs no Assets Catalog e organizá-las usando o menu esquerdo.
-- É possível exportar a imagem em formato LSR
-- E também adicionar um arquivo LSR direto ao projeto
+Criando imagens LSR pelo Xcode
 
+- Adicione seus PNGs no Assets Catalog e organize-os usando o menu esquerdo
+- É possível adicionar um arquivo LSR direto ao projeto
+- E também exportar a imagem para o formato LSR
 
 ![right 95%](https://developer.apple.com/library/tvos/documentation/General/Conceptual/AppleTV_PG/Art/xcodeimages_2x.png)
 
 ---
 
-## Criando imagens LCR pelo Xcode
+## Design Guidelines
+
+Criando imagens LCR pelo Xcode
 
 Para usar parallax em imagens fora do Bundle da app, é preciso converte-las para o formato .lcr
 
-Basta usar a `layerutil` command-line tool que vem instalada junto com o Xcode.
+Basta usar a `layerutil` command-line tool que vem instalado junto com o Xcode.
 
 ```
-xcrun —-sdk appletvos layerutil —-c <filename.lsr>
+xcrun —-sdk appletvos layerutil —-c filename.lsr
 ```
 
 ---
 
-## Ícone
+## Design Guidelines
+
+Ícone
 
 - Crie ícones com apenas um foco de atenção
 - Mantenha o background simples
@@ -385,7 +408,9 @@ xcrun —-sdk appletvos layerutil —-c <filename.lsr>
 
 ---
 
-## Ícone
+## Design Guidelines
+
+Ícone
 
 É preciso prover dois tamanhos de ícones
 
@@ -401,10 +426,11 @@ xcrun —-sdk appletvos layerutil —-c <filename.lsr>
 
 ---
 
-## Ícone
+## Design Guidelines
+
+Ícone
 
 Seu ícone deve ter entre 2 e 5 camadas para dar a sensação de profundidade e vitalidade quando estiver em foco.
-
 
 ![right 100%](https://developer.apple.com/tvos/human-interface-guidelines/icons-and-images/images/icons-and-images-icon-structure.png)
 
@@ -415,8 +441,6 @@ Seu ícone deve ter entre 2 e 5 camadas para dar a sensação de profundidade e 
 ---
 
 ## Focus API
-
-<br>
 
 Conjunto de métodos e propriedades que padronizam a interação do usuário com aplicativos para tvOS, evitando que cada desenvolvedor implemente comportamentos customizados.
 
@@ -499,7 +523,7 @@ UIFocusEnvironment Protocol
 func setNeedsFocusUpdate()
 func updateFocusIfNeeded()
 
-func shouldUpdateFocus(in: UIFocusUpdateContext)
+func shouldUpdateFocus(in: UIFocusUpdateContext) -> Bool
 
 func didUpdateFocus(in: UIFocusUpdateContext, with:
 UIFocusAnimationCoordinator)
@@ -509,7 +533,7 @@ UIFocusAnimationCoordinator)
 
 ## Focus API
 
-Restoring Focus
+Restaurar o foco
 
 ```swift
 // iOS 10
@@ -519,14 +543,6 @@ public class UIViewController : ... {
 ```
  
 ![inline 60%](../assets/RestoringFocus.png)
-
----
-
-## Focus API
-
-
- 
-![right autoplay loop 40%](https://developer.apple.com/tvos/human-interface-guidelines/user-interaction/images/navigation-and-focus-tilt-screen.mp4)
 
 ---
 
@@ -561,7 +577,7 @@ Por que usar?
 Por que usar para tvOS?
 
 - App de no máximo 200mb para a App Store
-- Apple TV não permite armazenamento local de dados
+- tvOS não permite armazenamento local de dados
 - Device conectado 100% do tempo
 
 ---
@@ -614,7 +630,7 @@ Criando tags
 
 Use a classe **NSBundleResourceRequest** para
 
-- Requisitar/Descartar on-demand resources
+- Requisitar/Descartar tags
 - Atualizar a prioridade dos downloads
 - Acompanhar progresso de download
 - Receber notificação de falta de espaço em disco
@@ -629,7 +645,7 @@ Use a classe **NSBundleResourceRequest** para
 
 Usado para criar aplicações Client-Server.
 
-É composto pela combinação de 3 frameworks
+É composto pela combinação de 3 frameworks.
 
 - TVML
 - TVMLKit JS
@@ -641,7 +657,7 @@ Usado para criar aplicações Client-Server.
 
 ## TVMLKit
 
-Aplicação Client-Server
+Aplicação Client-Server com TVMLKit
 
 ![inline 65%](https://developer.apple.com/library/tvos/documentation/General/Conceptual/AppleTV_PG/Art/flow_diagram_2x.png)
 
@@ -653,7 +669,7 @@ Fluxo de uma aplicação
 Client-Server
 
 <br>
-#### Para garantir que todas últimas alterações estejam visiveis para o usuário, adicione sempre `Cache-Control:no-cache` no header de response da sua requisição HTTP.
+Para garantir que todas últimas alterações estejam visiveis para o usuário, adicione sempre **`Cache-Control:no-cache`** no header de response da sua requisição HTTP.
 
 ![right 75%](https://developer.apple.com/library/tvos/documentation/General/Conceptual/AppleTV_PG/Art/flow_diagram2_2x.png)
 
@@ -663,7 +679,9 @@ Client-Server
 
 ---
 
-## Dark Appearence
+## Dicas
+
+Dark Appearence
 
 - Adote os dois modos
 - Adicione imagens diferentes caso necessário
@@ -673,19 +691,17 @@ Client-Server
 
 ---
 
-## Dark Appearence
+## Dicas
 
-![inline](http://media.idownloadblog.com/wp-content/uploads/2016/07/tvOS-10-Settings-Light-Mode-Apple-TV-screenshot-001.jpg) ![inline](http://media.idownloadblog.com/wp-content/uploads/2016/07/tvOS-10-Settings-Dark-Mode-Apple-TV-screenshot-001.jpg)
-
----
-
-## HomeKit
+HomeKit está disponível para tvOS 10
 
 ![inline](../assets/AppleTVHomeKit.png)
 
 ---
 
-## VoiceOver
+## Dicas
+
+Teste e faça as alterações necessárias para VoiceOver
 
 ![inline](../assets/AppleTVVoiceOver.png)
 
