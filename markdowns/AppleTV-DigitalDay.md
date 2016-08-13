@@ -501,10 +501,10 @@ UIFocusEnvironment Protocol
 <br>
 
 ```swift
-// iOS 9
+// tvOS 9
 var preferredFocusedView: UIView?
 
-// iOS 10
+// tvOS 10
 var preferredFocusEnvironments: 
 [UIFocusEnvironment]
 ```
@@ -536,7 +536,7 @@ UIFocusAnimationCoordinator)
 Restaurar o foco
 
 ```swift
-// iOS 10
+// tvOS 10
 public class UIViewController : ... {
 	public var restoresFocusAfterTransition: Bool
 }
@@ -685,7 +685,7 @@ Dark Appearence
 
 - Adote os dois modos
 - Adicione imagens diferentes caso necessário
-- Somente a partir do iOS 10
+- Somente a partir do tvOS 10
 
 ![right 70%](http://images.apple.com/v/tv/f/images/overview/tvos_update_tv_large.jpg)
 
@@ -726,3 +726,4 @@ Teste e faça as alterações necessárias para VoiceOver
 # Obrigado!
 ## salmo@ciandt.com
 ### @salmojr
+#### https://speakerdeck.com/salmojunior
