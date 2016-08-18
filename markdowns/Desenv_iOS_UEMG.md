@@ -21,7 +21,7 @@ salmo@ciandt.com
 - Overview
 - Guidelines
 - Consumo de Serviços
-- Armazenamento de Dados
+- Armazenamento
 - Hardware e Limitações
 - Ferramentas
 - Dicas
@@ -184,28 +184,36 @@ Desenvolvimento mobile simulando um ambiente real e já testado.
 
 ---
 
-## Armazenamento de Dados
+## Armazenamento
+
+---
+
+#### Armazenamento
+## Banco de dados
+
+- Cache das informações, para aplicativos que dependem de acesso a internet
+- Suporte a criptografia
+- a
+
+![right 30%](http://programadormobile.com.br/novo/wp-content/uploads/2015/05/SQLite370.svg_.png)
+
+---
+
+#### Armazenamento
+## Arquivos
+
+Arquivos como PDF e imagens não devem ser armazenados direto no banco.
+
+![inline 100%](../assets/DB2.png)
 
 ---
 
 #### Armazenamento de Dados
-##
+## Multiplos usuários
 
-- 
+É possível criar vários bancos dentro de um mesmo aplicativo.
 
----
-
-#### Armazenamento de Dados
-##
-
-- 
-
----
-
-#### Armazenamento de Dados
-##
-
-- 
+![inline 100%](../assets/DB.png)
 
 ---
 
