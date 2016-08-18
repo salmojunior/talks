@@ -4,13 +4,11 @@
 
 ## Salmo Junior
 
-Mineiro, Chapter Leader do CocoaHeads BH, dev iOS desde 2011, corinthiano, viajante e viciado em queijo.
+Mineiro, Chapter Leader do CocoaHeads BH, dev iOS desde 2011, corinthiano e viajante.
 
+![right](../assets/Eu2.png)
 
-
-![right](../assets/eu.png)
-
-<br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br>
 
 Sênior iOS Developer at CI&T
 salmo@ciandt.com
@@ -24,7 +22,7 @@ salmo@ciandt.com
 - Guidelines
 - Consumo de Serviços
 - Armazenamento de Dados
-- Hardware/Limitações
+- Hardware e Limitações
 - Ferramentas
 - Dicas
 
@@ -35,7 +33,10 @@ salmo@ciandt.com
 ---
 
 #### Overview
-## 
+
+## Objective-C e Swift
+
+![inline](http://codevoyagers.com/wp-content/uploads/2016/03/objectivec.png) 
 
 ---
 
@@ -52,7 +53,38 @@ salmo@ciandt.com
 ---
 
 #### Overview
-## 
+## Apple Developer Program
+
+- Paramento anual
+- Acesso a versões beta
+- Testes em vários devices
+- Distribuição
+
+![right 80%](https://devimages.apple.com.edgekey.net/programs/images/adp-program-hero-medium.png)
+
+---
+
+#### Overview
+## App Store
+
+- 99 Dolares anual
+- Testes em número limitado de devices
+- iTunes Connect
+- Acesso a App Store mundial
+
+![right 15%](https://simplematters.zendesk.com/hc/en-us/article_attachments/202646338/App_Store_icon_1.png)
+
+---
+
+#### Overview
+## Enterprise
+
+- 299 Dolares anual
+- D-U-N-S® number
+- Sem acesso a App Store
+- Somente distribuição interna
+
+![right 100%](http://www.thetelecomblog.com/wp-content/uploads/2015/02/mac-os-lion-downloaded-for-moree-than-1-million-times-350x290.png)
 
 ---
 
@@ -70,24 +102,10 @@ salmo@ciandt.com
 #### Guidelines
 ## Notificações
 
-Para o Usuário
-
-- Local Notification
 - Push Notification
-
-![](https://lh5.googleusercontent.com/xvxY92g0AYjY8dzb2e00WHJ_AnxhVJMwS7HamcYmC89BB7UvMFb3ypfDaoE93UA9-XKw856nX-wTG5MXkC27qfW72rfS_GF7qog--L642s1t3X6IxrxlHVuU_1aP5clVGgLDNSBL_w) ![inline](https://lh4.googleusercontent.com/p8kD4kVpytzYAjtrOTZBJ2QaB2gjntsxg5kLBdtN89ML9A6DIta-W7VueNennH1Q82wRd3E1XmdUbmp3uwW2zqLshnzcWcs0aQGwD0_jzXCfxjPRXib0NpT8hg1HmobWtQfJNbKHBA) ![inline](https://lh5.googleusercontent.com/mPZxUF0NmW_BKQ_M4NXe2GqhrPmyA1InvxD6uPI0Q6JOM7Fg-LPbJRw6XQXlbX4AtgEEhD7yQeW-1Kkjz6XMGf9R8PZt5dL4QDk4uRJ3TMfWaTI-6LQUHGXByb48OGsSuOSczMl4ew)
-
----
-
-#### Guidelines
-## Notificações
-
-Para o S.O.
-
-- Notification Center
 - Silent Push Notification
 
-![right 110%](https://lh4.googleusercontent.com/QH645IwcQ9y6PC5LEigLJPmv62sOWn2DG9X_ZOLXqnQMz0bmZpTm_avBKB5-1dNDfz7yCVq5aJ5_uTHIDBVuYC54JQ-LxPhPzKnSFPMrzwoGOZytioMhJ8pf86UqdEkfoP9hDKXlmA)
+![inline](https://developer.apple.com/library/ios/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/Art/remote_notif_simple_2x.png)
 
 ---
 
@@ -108,11 +126,10 @@ Para o S.O.
 #### Guidelines
 ## Sincronismo de dados
 
-![inline](https://lh6.googleusercontent.com/f-g7E_0HtcFuKsLX4Gj4iJBLU13oOTWzlGZNgrsoKRg1vz4H-jHZAOiWQMmazdi0ur4xwf3Uo0T8Mwr0UWagA64aiELSxdg6r1wrBffm1HIiSR1CPhTrfsmRaLEcR8sTIBbfZ7x8qA)
+- Sincronismo sempre em background sempre que possível
+- Conteúdo inicial offline
 
-<!--um conteúdo inicial offline 
-Todos os syncs de dados pesados (Ex: Produtos de uma loja), devem ser feitos em segundo plano, sem alterar a User Experience.
--->
+![right 100%](https://lh6.googleusercontent.com/f-g7E_0HtcFuKsLX4Gj4iJBLU13oOTWzlGZNgrsoKRg1vz4H-jHZAOiWQMmazdi0ur4xwf3Uo0T8Mwr0UWagA64aiELSxdg6r1wrBffm1HIiSR1CPhTrfsmRaLEcR8sTIBbfZ7x8qA)
 
 ---
 
@@ -126,14 +143,7 @@ Todos os syncs de dados pesados (Ex: Produtos de uma loja), devem ser feitos em 
 #### Guidelines
 ## Segurança
 
-Keychain
-Senhas, usuários e chaves de APIs
-
-Plist
-Configurações da app
-
-NSUserDefaults
-Preferências do usuário
+![inline](https://lh6.googleusercontent.com/HBGTsB_c3wL9uY5yunZeJmzAKyH2AHy5SF25tHO5MzCPMTcaFlrmS-wimtw6ST3hFnarlQ6cIOWmlKwEzx86bhMQad_pGAql9mcXBPFUykjg4pzG6UQIU6Tywc2U8Wq5ImRXNLjlNw) ![inline](http://d.ibtimes.co.uk/en/full/1433208/touch-id.jpg)
 
 ---
 
@@ -142,16 +152,21 @@ Preferências do usuário
 ---
 
 #### Consumo de Serviços
-## REST com formato JSON
+## REST com JSON
 
-- Menor e mais simples, poupando o consumo de dados
-- Menor processamento devido a facilidade de conversão e interpretação
-- Fornece melhores tempos de resposta
+- Melhor tempo de resposta
+- Objetos mais simples
+- Menor processamento
+
+<!--poupando o consumo de dados-->
+<!--devido a facilidade de conversão e interpretação-->
+
+![right 50%](http://sahinerbay.com/wordpress/wp-content/uploads/2016/03/JSON.png)
 
 ---
 
 #### Consumo de Serviços
-## Ambiente
+## Ambientes
 
 ![inline](https://lh5.googleusercontent.com/En1zhL2s34Ch2fDUTiRYnmKV8zi0BWEyPFj9hNicNTXe5o_kIPC2ApgPadHrDysSueGJZ-BTlybJ2wWFxCAYGK5kQabrrWxFYYpHG_fU0wKMAE5suQ5t8IjL0GSNXYHLKqH9FfKnvQ)
 
@@ -176,66 +191,68 @@ Desenvolvimento mobile simulando um ambiente real e já testado.
 #### Armazenamento de Dados
 ##
 
----
-
-#### Armazenamento de Dados
-##
+- 
 
 ---
 
 #### Armazenamento de Dados
 ##
 
+- 
+
 ---
 
 #### Armazenamento de Dados
 ##
 
----
-
-## Hardware/Limitações
+- 
 
 ---
 
-#### Hardware/Limitações
+## Hardware e Limitações
+
+---
+
+#### Hardware e Limitações
 ## Versões de S.O. são lançadas frequentemente
 
-![inline](https://lh6.googleusercontent.com/oGwVv1HgWR8Wyoiye61pf0bBOxGyRxaiaSnzhv5DzCWilnj4PxKmSvsbkzdTDqpzspeEq5UgyElp54y-Fc6zuKu4emfIy7xm63FFl8Ui853GvN0ROO2zhVayedagCk1-GMkZcabsRg)
+![inline](https://www.smartface.io/wp-content/uploads/2015/01/smartface_ios_android_version_fragmentation-1030x533.png)
 
 ---
 
-#### Hardware/Limitações
+#### Hardware e Limitações
 ## Sensores
 
-São um dos grandes diferenciais dos smartphones
+Uns dos grandes diferenciais dos smartphones
 
 ![inline](https://lh5.googleusercontent.com/sE297ADrqOk5NqnAB64b3xU0HPZEphD6P9SyuN3C8tBJxdl1GZcJ9qW7or-6MSIDMF6_1ilCKbrjevq4jQJ-BrORACmh0R3Bre8RCZSUKrA2SfjiOox9Aa62n8NV-DLnGi9SSAmHkg)
 
 ---
 
-#### Hardware/Limitações
+#### Hardware e Limitações
 ## Sensores
 
-Mas também podem ser os grande vilões
+Mas também podem ser os grandes vilões
 
 ![inline](https://lh3.googleusercontent.com/MwY2t7bxd33eIkM2ZI7uX6sAh63nEWlJIPaCcxbVy-QGqaECTOkHSvifpmdmvOGIUljrzWrs1s9vPOL0LMH6r6JYmQ4M1N2QFcnNZtLjNGA6fQZXy5euCbE77_sS2Ox3rfJH9udFbg)
 
 ---
 
-#### Hardware/Limitações
+#### Hardware e Limitações
 ## Localização
 
 ![inline](https://lh6.googleusercontent.com/6uFiHMEOBP2mVOD7MIedJlKogfl0LHDkkhuBUovGW0Rh1fs94sElttqUKUUZ3503zWergHgVhWLpik8w0kK-TZ4pLCgHXyaEWQidl1k9pRCdbfnOmiQs9sQ7PFQwXQXTfUPuX6_UPg)
 
 ---
 
-#### Hardware/Limitações
+#### Hardware e Limitações
 ## Uso de banda de internet
 
-- Preocupar com os tipos e quantidade de requisições
-- Fazer cache sempre que possível das informações
-- Verificar o tipo de conexão antes de fazer requisições pesadas e downloads de arquivos
-- Pedir permissão do usuário para usar a rede 3G para downloads de arquivos.
+- Minimizar a quantidade de requisições
+- Fazer cache sempre que possível
+- Verificar o tipo de conexão antes de downloads grandes
+
+![right](http://www.adweek.com/socialtimes/wp-content/uploads/sites/2/2015/09/Phone-Bored.png)
 
 <!--Nos preocupar com os tipos e quantidade de requisições
 Fazer cache sempre que possível das informações
@@ -245,24 +262,29 @@ Pedir permissão do usuário para usar a rede 3G para downloads de arquivos.
 
 ---
 
-#### Hardware/Limitações
-## Divisão de processamento entre Aplicativo e Backend
+#### Hardware e Limitações
+## Divisão de tarefas entre Aplicativo e Backend
 
-- Uma alteração do lado mobile implica no lançamento de uma nova versão
+![inline](https://upload.wikimedia.org/wikipedia/commons/f/fd/Tug_of_war_2.jpg)
+
+<!--- Uma alteração do lado mobile implica no lançamento de uma nova versão
 - Tempo de alteração/correção
-- Poder de processamento
+- Poder de processamento-->
 
 ---
 
-#### Hardware/Limitações
+#### Hardware e Limitações
 ## Tamanho do Aplicativo
 
-![inline](https://lh5.googleusercontent.com/sMTo_wtjorzd0NhlzKg-2_hB1jaG7Q_uAgVHTrOV10ydDnsdI40KxBqKYEjVeJbkoikaGjXuhOtug3Td2t1MWrWnG6_vLg18tvp99kAbwDBEbXzHpVK_gzH8-HUL_2tKYVQ0mFQ9Ew)
+- Tamanho máximo de 2gb
+- Até 20gb usando On-Demand Resouces
+
+![right 70%](https://lh5.googleusercontent.com/sMTo_wtjorzd0NhlzKg-2_hB1jaG7Q_uAgVHTrOV10ydDnsdI40KxBqKYEjVeJbkoikaGjXuhOtug3Td2t1MWrWnG6_vLg18tvp99kAbwDBEbXzHpVK_gzH8-HUL_2tKYVQ0mFQ9Ew)
 
 ---
 
-#### Hardware/Limitações
-## Armazenamento limitado
+#### Hardware e Limitações
+## Armazenamento
 
 ![inline 75%](https://lh5.googleusercontent.com/9CEOaBv_8ruScVlgzIIb5-IsmmaiV4992WqkzMu08EqrEyd1u1J3epmOuDcM8PwRMAogzGbGdmlTaA2BK-vqV5mUKdAPoSOmnH2-caJPtSLQzRcSh3heNX5P8Cw56PcF6KDmRNf9eg)
 
@@ -333,7 +355,7 @@ Remover os assets que não são mais utilizados no projeto, sempre que lançar u
 #### Ferramentas
 ## Distribuíção/Beta Test
 
-- a
+![inline 75%](http://core0.staticworld.net/images/article/2014/10/twitter-fabric-logo-100527200-primary.idge.jpg) ![inline 75%](http://media.idownloadblog.com/wp-content/uploads/2014/09/TestFlight-1.0-for-iOS-app-icon-small-220x220.png) ![inline](https://www.cloudbees.com/sites/default/files/hockeyapp_logo.png)
 
 ---
 
@@ -342,7 +364,7 @@ Remover os assets que não são mais utilizados no projeto, sempre que lançar u
 ---
 
 #### Dicas
-## Ganhe tempo matendo a qualidade 
+## Ganhe tempo com qualidade 
 
 ![inline](https://1.bp.blogspot.com/-YIfQT6q8ZM4/Vzyq5z1B8HI/AAAAAAAAAAc/UmWSSMLKtKgtH7CACElUp12zXkrPK5UoACLcB/s1600/image00.png) ![inline](https://1.bp.blogspot.com/-tw1WkD2LdBQ/VY07710_e8I/AAAAAAAADI8/4il9OwOizmQ/s1600/partner_ibm.png)
 
@@ -359,6 +381,18 @@ Remover os assets que não são mais utilizados no projeto, sempre que lançar u
 ## Qual versão de iOS Suportar?
 
 ![inline](/Users/salmojunior/Documents/Git Projects/talks/assets/iOSVersions.png)
+
+---
+
+#### Dicas
+## Monetização
+
+- Venda do aplicativo?
+- In-App Purchase?
+- Anúncios?
+- Assinaturas?
+
+![right 130%](https://faminem.files.wordpress.com/2011/10/cifrao.png)
 
 ---
 
