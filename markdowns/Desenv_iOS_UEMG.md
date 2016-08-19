@@ -23,8 +23,8 @@ salmo@ciandt.com
 - Consumo de Serviços
 - Armazenamento
 - Hardware e Limitações
-- Ferramentas
 - Dicas
+- Ferramentas
 
 ---
 
@@ -48,7 +48,7 @@ salmo@ciandt.com
 - iOS Simulator
 - Instruments
 
-![right 40%](https://lh3.googleusercontent.com/_eCHMq-Js-JWbfhwEq7WmcmokLhZWPVImz2xB148DM8k8t1wnubQACX9KnP-pqEwawJQvKChARRK3VFbtMYAMRnjIBpmoiyx_K5J5RwzKekAuK05woY2aJFPWYMCTt2ugMWcLBAVzg)
+![right 55%](https://developer.apple.com/xcode/images/xcode-hero-large.png)
 
 ---
 
@@ -56,7 +56,7 @@ salmo@ciandt.com
 ## Apple Developer Program
 
 - Pagamento anual
-- Acesso a versões beta
+- Acesso as versões beta
 - Testes em vários devices
 - Distribuição
 
@@ -279,7 +279,7 @@ Utilize de forma consciente
 ---
 
 #### Hardware e Limitações
-## Tamanho do Aplicativo
+## Armazenamento
 
 - Tamanho máximo de 2gb
 - Até 20gb usando On-Demand Resouces
@@ -300,14 +300,51 @@ Remover os assets que não são mais utilizados no projeto, sempre que lançar u
 
 ---
 
-## Ferramentas
+## Dicas
 
 ---
 
-#### Ferramentas
-## Xcode
+#### Dicas
+## Ganhe tempo com qualidade 
 
-![inline](https://developer.apple.com/xcode/images/xcode-hero-large.png)
+![inline](https://1.bp.blogspot.com/-YIfQT6q8ZM4/Vzyq5z1B8HI/AAAAAAAAAAc/UmWSSMLKtKgtH7CACElUp12zXkrPK5UoACLcB/s1600/image00.png) ![inline](https://1.bp.blogspot.com/-tw1WkD2LdBQ/VY07710_e8I/AAAAAAAADI8/4il9OwOizmQ/s1600/partner_ibm.png)
+
+---
+
+#### Dicas
+## Acessibilidade
+
+![inline](http://images.apple.com/support/assets/images/products/accessibility/hero_accessibility.png)
+
+---
+
+#### Dicas
+## Qual versão de iOS Suportar?
+
+![inline](../assets/iOSVersions.png)
+
+---
+
+#### Dicas
+## Monetização
+
+- Venda do aplicativo?
+- In-App Purchase?
+- Assinaturas?
+- ~~Anúncios?~~
+
+![right 100%](https://faminem.files.wordpress.com/2011/10/cifrao.png)
+
+---
+
+#### Dicas
+## Extenda as funcionalidades de sua App
+
+![inline](https://tractusonline.com/wp-content/uploads/2015/09/apple-watch-apps.png)![inline](http://www.imore.com/sites/imore.com/files/styles/large/public/topic_images/2015/apple-tv-4-topic.png?itok=qAEoCCk0)
+
+---
+
+## Ferramentas
 
 ---
 
@@ -361,50 +398,6 @@ Remover os assets que não são mais utilizados no projeto, sempre que lançar u
 ## Distribuíção/Beta Test
 
 ![inline 75%](http://core0.staticworld.net/images/article/2014/10/twitter-fabric-logo-100527200-primary.idge.jpg) ![inline 75%](http://media.idownloadblog.com/wp-content/uploads/2014/09/TestFlight-1.0-for-iOS-app-icon-small-220x220.png) ![inline](https://www.cloudbees.com/sites/default/files/hockeyapp_logo.png)
-
----
-
-## Dicas
-
----
-
-#### Dicas
-## Ganhe tempo com qualidade 
-
-![inline](https://1.bp.blogspot.com/-YIfQT6q8ZM4/Vzyq5z1B8HI/AAAAAAAAAAc/UmWSSMLKtKgtH7CACElUp12zXkrPK5UoACLcB/s1600/image00.png) ![inline](https://1.bp.blogspot.com/-tw1WkD2LdBQ/VY07710_e8I/AAAAAAAADI8/4il9OwOizmQ/s1600/partner_ibm.png)
-
----
-
-#### Dicas
-## Acessibilidade
-
-![inline](http://images.apple.com/support/assets/images/products/accessibility/hero_accessibility.png)
-
----
-
-#### Dicas
-## Qual versão de iOS Suportar?
-
-![inline](/Users/salmojunior/Documents/Git Projects/talks/assets/iOSVersions.png)
-
----
-
-#### Dicas
-## Monetização
-
-- Venda do aplicativo?
-- In-App Purchase?
-- Assinaturas?
-- ~~Anúncios?~~
-
-![right 100%](https://faminem.files.wordpress.com/2011/10/cifrao.png)
-
----
-
-#### Dicas
-## Extenda as funcionalidades de sua App
-
-![inline](https://tractusonline.com/wp-content/uploads/2015/09/apple-watch-apps.png)![inline](http://www.imore.com/sites/imore.com/files/styles/large/public/topic_images/2015/apple-tv-4-topic.png?itok=qAEoCCk0)
 
 ---
 
