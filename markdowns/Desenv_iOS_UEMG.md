@@ -55,7 +55,7 @@ salmo@ciandt.com
 #### Overview
 ## Apple Developer Program
 
-- Paramento anual
+- Pagamento anual
 - Acesso a versões beta
 - Testes em vários devices
 - Distribuição
@@ -67,7 +67,7 @@ salmo@ciandt.com
 #### Overview
 ## App Store
 
-- 99 Dolares anual
+- 99 dólares anual
 - Testes em número limitado de devices
 - iTunes Connect
 - Acesso a App Store mundial
@@ -79,8 +79,8 @@ salmo@ciandt.com
 #### Overview
 ## Enterprise
 
-- 299 Dolares anual
-- D-U-N-S® number
+- 299 dólares anual
+- Necessidade de D-U-N-S® number
 - Sem acesso a App Store
 - Somente distribuição interna
 
@@ -96,16 +96,6 @@ salmo@ciandt.com
 ## Utilização da Main Thread
 
 ![inline](https://lh5.googleusercontent.com/SLIDz-TmTSI29kPSo7pi907dtSuph76-2yRQw4Oi2Udi-xOpaNh-_PESzh64oQAENxkiMqHJI_cRqNztFIRhue2f2lspVFAfqUWAz7yDSMY3py7hpGqqgKajk9XE9PFiIkTcpK-nFA) ![inline](https://lh4.googleusercontent.com/lXWEKqR9vhqNWY_YGa_H4gD1QyPYQQzH1gi7j9DCpbMwG6ohEEvGValceylDMRuFuWeC6tToBfoMRLjBBYC0Js_qn7vsiWQrl-v17WMPwaN0L48HioYcwmrhV9xFEzEOTXXKcEdOjg)
-
----
-
-#### Guidelines
-## Notificações
-
-- Push Notification
-- Silent Push Notification
-
-![inline](https://developer.apple.com/library/ios/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/Art/remote_notif_simple_2x.png)
 
 ---
 
@@ -126,10 +116,20 @@ salmo@ciandt.com
 #### Guidelines
 ## Sincronismo de dados
 
-- Sincronismo sempre em background sempre que possível
+- Sincronismo em background sempre que possível
 - Conteúdo inicial offline
 
 ![right 100%](https://lh6.googleusercontent.com/f-g7E_0HtcFuKsLX4Gj4iJBLU13oOTWzlGZNgrsoKRg1vz4H-jHZAOiWQMmazdi0ur4xwf3Uo0T8Mwr0UWagA64aiELSxdg6r1wrBffm1HIiSR1CPhTrfsmRaLEcR8sTIBbfZ7x8qA)
+
+---
+
+#### Guidelines
+## Notificações
+
+- Push Notification
+- Silent Push Notification
+
+![inline](https://developer.apple.com/library/ios/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/Art/remote_notif_simple_2x.png)
 
 ---
 
@@ -191,9 +191,10 @@ Desenvolvimento mobile simulando um ambiente real e já testado.
 #### Armazenamento
 ## Banco de dados
 
-- Cache das informações, para aplicativos que dependem de acesso a internet
-- Suporte a criptografia
-- a
+- Simple e compacto
+- Suporte nativo
+- Sem necessidade de configurações 
+- Suporta criptografia
 
 ![right 30%](http://programadormobile.com.br/novo/wp-content/uploads/2015/05/SQLite370.svg_.png)
 
@@ -202,7 +203,7 @@ Desenvolvimento mobile simulando um ambiente real e já testado.
 #### Armazenamento
 ## Arquivos
 
-Arquivos como PDF e imagens não devem ser armazenados direto no banco.
+Arquivos como PDFs e imagens não devem ser armazenados direto no banco
 
 ![inline 100%](../assets/DB2.png)
 
@@ -211,7 +212,7 @@ Arquivos como PDF e imagens não devem ser armazenados direto no banco.
 #### Armazenamento de Dados
 ## Multiplos usuários
 
-É possível criar vários bancos dentro de um mesmo aplicativo.
+É possível criar vários bancos dentro de um mesmo aplicativo
 
 ![inline 100%](../assets/DB.png)
 
@@ -247,7 +248,9 @@ Mas também podem ser os grandes vilões
 ---
 
 #### Hardware e Limitações
-## Localização
+## Sensores 
+
+Utilize de forma consciente
 
 ![inline](https://lh6.googleusercontent.com/6uFiHMEOBP2mVOD7MIedJlKogfl0LHDkkhuBUovGW0Rh1fs94sElttqUKUUZ3503zWergHgVhWLpik8w0kK-TZ4pLCgHXyaEWQidl1k9pRCdbfnOmiQs9sQ7PFQwXQXTfUPuX6_UPg)
 
@@ -256,17 +259,11 @@ Mas também podem ser os grandes vilões
 #### Hardware e Limitações
 ## Uso de banda de internet
 
-- Minimizar a quantidade de requisições
-- Fazer cache sempre que possível
-- Verificar o tipo de conexão antes de downloads grandes
+- Minimize a quantidade de requisições
+- Faça cache sempre que possível
+- Verifique o tipo de conexão antes de downloads grandes
 
 ![right](http://www.adweek.com/socialtimes/wp-content/uploads/sites/2/2015/09/Phone-Bored.png)
-
-<!--Nos preocupar com os tipos e quantidade de requisições
-Fazer cache sempre que possível das informações
-Verificar o tipo de conexão antes de fazer requisições pesadas e downloads de arquivos
-Pedir permissão do usuário para usar a rede 3G para downloads de arquivos.
--->
 
 ---
 
@@ -397,10 +394,10 @@ Remover os assets que não são mais utilizados no projeto, sempre que lançar u
 
 - Venda do aplicativo?
 - In-App Purchase?
-- Anúncios?
 - Assinaturas?
+- ~~Anúncios?~~
 
-![right 130%](https://faminem.files.wordpress.com/2011/10/cifrao.png)
+![right 100%](https://faminem.files.wordpress.com/2011/10/cifrao.png)
 
 ---
 
