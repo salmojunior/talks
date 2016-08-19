@@ -209,7 +209,7 @@ Arquivos como PDFs e imagens não devem ser armazenados direto no banco
 
 ---
 
-#### Armazenamento de Dados
+#### Armazenamento
 ## Multiplos usuários
 
 É possível criar vários bancos dentro de um mesmo aplicativo
