@@ -191,7 +191,7 @@ Desenvolvimento mobile simulando um ambiente real e já testado.
 #### Armazenamento
 ## Banco de dados
 
-- Simple e compacto
+- Simples e compacto
 - Suporte nativo
 - Sem necessidade de configurações 
 - Suporta criptografia
