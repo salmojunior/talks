@@ -8,7 +8,7 @@
 
 Mineiro, Chapter Leader do CocoaHeads BH, dev iOS desde 2011, corinthiano, viajante e viciado em queijo.
 
-![right](../assets/eu.png)
+![right](../assets/eu2.png)
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br>
 

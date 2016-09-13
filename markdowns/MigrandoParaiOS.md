@@ -1,4 +1,4 @@
-# Entendendo o processo de desenvolvimento de aplicativos iOS
+# Migrando para o desenvolvimento mobile (iOS)
 
 ---
 
