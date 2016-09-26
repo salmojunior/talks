@@ -18,73 +18,11 @@ salmo@ciandt.com
 
 ## Agenda
 
-- Overview
 - Guidelines
-- Consumo de Serviços
-- Armazenamento
+- Serviços e Armazenamento
 - Hardware e Limitações
 - Dicas
 - Ferramentas
-
----
-
-## Overview
-
----
-
-#### Overview
-
-## Objective-C e Swift
-
-![inline](http://codevoyagers.com/wp-content/uploads/2016/03/objectivec.png) 
-
----
-
-#### Overview
-## iOS Development Kit
-
-- Xcode
-- Interface Builder
-- iOS Simulator
-- Instruments
-
-![right 55%](https://developer.apple.com/xcode/images/xcode-hero-large.png)
-
----
-
-#### Overview
-## Apple Developer Program
-
-- Pagamento anual
-- Acesso as versões beta
-- Testes em vários devices
-- Distribuição
-
-![right 80%](https://devimages.apple.com.edgekey.net/programs/images/adp-program-hero-medium.png)
-
----
-
-#### Overview
-## App Store
-
-- 99 dólares anual
-- Testes em número limitado de devices
-- iTunes Connect
-- Acesso a App Store mundial
-
-![right 15%](https://simplematters.zendesk.com/hc/en-us/article_attachments/202646338/App_Store_icon_1.png)
-
----
-
-#### Overview
-## Enterprise
-
-- 299 dólares anual
-- Necessidade de D-U-N-S® number
-- Sem acesso a App Store
-- Somente distribuição interna
-
-![right 100%](http://www.thetelecomblog.com/wp-content/uploads/2015/02/mac-os-lion-downloaded-for-moree-than-1-million-times-350x290.png)
 
 ---
 
@@ -95,14 +33,7 @@ salmo@ciandt.com
 #### Guidelines
 ## Utilização da Main Thread
 
-![inline](https://lh5.googleusercontent.com/SLIDz-TmTSI29kPSo7pi907dtSuph76-2yRQw4Oi2Udi-xOpaNh-_PESzh64oQAENxkiMqHJI_cRqNztFIRhue2f2lspVFAfqUWAz7yDSMY3py7hpGqqgKajk9XE9PFiIkTcpK-nFA) ![inline](https://lh4.googleusercontent.com/lXWEKqR9vhqNWY_YGa_H4gD1QyPYQQzH1gi7j9DCpbMwG6ohEEvGValceylDMRuFuWeC6tToBfoMRLjBBYC0Js_qn7vsiWQrl-v17WMPwaN0L48HioYcwmrhV9xFEzEOTXXKcEdOjg)
-
----
-
-#### Guidelines
-## Interrupções
-
-![inline](https://lh4.googleusercontent.com/5YTB51qpHCe7sQW4rnOA3GfRv2IjvY-6hyusAq9YBvRUQR-xRah4TIBt1UfLEszM7eLXGaNpo3HCBpX7fj7LHU4Gze_4INwWoCpxOzHeX-ipFoWUI-ApKbgiGXUPTHo1myHFN4oMVg) ![inline](https://lh5.googleusercontent.com/GTaLdayR8eyFEw8ivgzlSXvz4i_1aL-3S5QxSUlapaUUDO5qLVEBhZP5zn8gZuHao3NA1W6X9nzSK-l7cNo6VTfMGSTMiWb9m0Sahced61J2GsY7dteyhTzdQsn27s_quqKV-QWmdw)
+![inline](https://developer.apple.com/library/content/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/Art/event_draw_cycle_a_2x.png)
 
 ---
 
@@ -111,27 +42,12 @@ salmo@ciandt.com
 
 ![inline](https://developer.apple.com/library/ios/documentation/MacOSX/Conceptual/BPInternational/Art/internationalization_intro_2x.png)
 
-<!------->
-
-<!--#### Guidelines
-## Sincronismo de dados
-
-- Tenha conteúdo inicial offline
-- Sincronize em background e com antecedência
-- Envie os dados da forma mais simplificada possível
-
-![right 100%](https://lh6.googleusercontent.com/f-g7E_0HtcFuKsLX4Gj4iJBLU13oOTWzlGZNgrsoKRg1vz4H-jHZAOiWQMmazdi0ur4xwf3Uo0T8Mwr0UWagA64aiELSxdg6r1wrBffm1HIiSR1CPhTrfsmRaLEcR8sTIBbfZ7x8qA)-->
-
-<!-----
+---
 
 #### Guidelines
-## Notificações
+## Interrupções
 
-- Push Notification
-- Silent Push Notification
-
-![inline](https://developer.apple.com/library/ios/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/Art/remote_notif_simple_2x.png)
--->
+![inline](https://lh4.googleusercontent.com/5YTB51qpHCe7sQW4rnOA3GfRv2IjvY-6hyusAq9YBvRUQR-xRah4TIBt1UfLEszM7eLXGaNpo3HCBpX7fj7LHU4Gze_4INwWoCpxOzHeX-ipFoWUI-ApKbgiGXUPTHo1myHFN4oMVg) ![inline](https://lh5.googleusercontent.com/GTaLdayR8eyFEw8ivgzlSXvz4i_1aL-3S5QxSUlapaUUDO5qLVEBhZP5zn8gZuHao3NA1W6X9nzSK-l7cNo6VTfMGSTMiWb9m0Sahced61J2GsY7dteyhTzdQsn27s_quqKV-QWmdw)
 
 ---
 
@@ -149,11 +65,11 @@ salmo@ciandt.com
 
 ---
 
-## Consumo de Serviços
+## Serviços e Armazenamento
 
 ---
 
-#### Consumo de Serviços
+#### Serviços e Armazenamento
 ## REST com JSON
 
 - Melhor tempo de resposta
@@ -167,7 +83,7 @@ salmo@ciandt.com
 
 ---
 
-#### Consumo de Serviços
+#### Serviços e Armazenamento
 ## Sincronismo de dados
 
 - Tenha conteúdo inicial offline
@@ -178,60 +94,23 @@ salmo@ciandt.com
 
 ---
 
-#### Consumo de Serviços
+#### Serviços e Armazenamento
 ## Versionamento e tempo de desenvolvimento
 
 ![inline](https://lh3.googleusercontent.com/lRSEtZz0dGIBNvhbSklft3uhpz2YOGucOkVupihYQJYQvJ9WCyMXhEQpiwwnhHrYXlWf0LxMMYdbR54ezeW0z-H_8W2VymnMCzGVp95McyPJMt1KT-a9ZrV8ZBL_upgf4R_iF3pCkA)
 
-<!--Evita Retrabalho e Testes duplicados, com Mockup / Consumo real.
-Evita Refactor tardio do time de Backend.
-Desenvolvimento mobile simulando um ambiente real e já testado.
--->
-
 ---
 
-## Armazenamento
-
----
-
-#### Armazenamento
-## Banco de dados
-
-- Simples e compacto
-- Suporte nativo
-- Sem necessidade de configurações 
-- Suporta criptografia
-
-![right 30%](http://programadormobile.com.br/novo/wp-content/uploads/2015/05/SQLite370.svg_.png)
-
----
-
-#### Armazenamento
+#### Serviços e Armazenamento
 ## Arquivos
 
-Arquivos como PDFs e imagens não devem ser armazenados direto no banco
+Arquivos não devem ser armazenados direto no banco
 
 ![inline 100%](../assets/DB2.png)
-
-<!-----
-
-#### Armazenamento
-## Multiplos usuários
-
-É possível criar vários bancos dentro de um mesmo aplicativo
-
-![inline 100%](../assets/DB.png)-->
 
 ---
 
 ## Hardware e Limitações
-
----
-
-#### Hardware e Limitações
-## Versões de S.O. são lançadas frequentemente
-
-![inline](https://www.smartface.io/wp-content/uploads/2015/01/smartface_ios_android_version_fragmentation-1030x533.png)
 
 ---
 
@@ -287,8 +166,8 @@ Utilize de forma consciente
 #### Hardware e Limitações
 ## Armazenamento
 
-- Tamanho máximo de 2GB
 - Acima de 100MB, download somente com wifi
+- Tamanho máximo de 2GB
 - Até 20GB de conteúdo usando On-Demand Resouces
 
 ![right 70%](https://lh5.googleusercontent.com/sMTo_wtjorzd0NhlzKg-2_hB1jaG7Q_uAgVHTrOV10ydDnsdI40KxBqKYEjVeJbkoikaGjXuhOtug3Td2t1MWrWnG6_vLg18tvp99kAbwDBEbXzHpVK_gzH8-HUL_2tKYVQ0mFQ9Ew)
@@ -307,6 +186,13 @@ Remover os assets que não são mais utilizados no projeto, sempre que lançar u
 
 ---
 
+#### Hardware e Limitações
+## Versões de S.O. são lançadas frequentemente
+
+![inline](https://www.smartface.io/wp-content/uploads/2015/01/smartface_ios_android_version_fragmentation-1030x533.png)
+
+---
+
 ## Dicas
 
 ---
@@ -319,13 +205,6 @@ Remover os assets que não são mais utilizados no projeto, sempre que lançar u
 ---
 
 #### Dicas
-## Acessibilidade
-
-![inline](http://images.apple.com/support/assets/images/products/accessibility/hero_accessibility.png)
-
----
-
-#### Dicas
 ## Qual versão de iOS Suportar?
 
 ![inline](../assets/iOSVersions.png)
@@ -333,14 +212,16 @@ Remover os assets que não são mais utilizados no projeto, sempre que lançar u
 ---
 
 #### Dicas
-## Monetização
+## Engajamento
 
-- Venda do aplicativo?
-- In-App Purchase?
-- Assinaturas?
-- ~~Anúncios?~~
+![inline](../assets/engagement.png)
 
-![right 100%](https://faminem.files.wordpress.com/2011/10/cifrao.png)
+---
+
+#### Dicas
+## Acessibilidade
+
+![inline](http://images.apple.com/support/assets/images/products/accessibility/hero_accessibility.png)
 
 ---
 
