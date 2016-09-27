@@ -1,3 +1,5 @@
+build-lists: true
+
 # Migrando para o desenvolvimento mobile (iOS)
 
 ---
@@ -90,7 +92,7 @@ salmo@ciandt.com
 - Sincronize em background e com antecedência
 - Envie os dados da forma mais simplificada possível
 
-![right 100%](https://lh6.googleusercontent.com/f-g7E_0HtcFuKsLX4Gj4iJBLU13oOTWzlGZNgrsoKRg1vz4H-jHZAOiWQMmazdi0ur4xwf3Uo0T8Mwr0UWagA64aiELSxdg6r1wrBffm1HIiSR1CPhTrfsmRaLEcR8sTIBbfZ7x8qA)
+![right 100%](../assets/sync.png)
 
 ---
 
@@ -221,7 +223,7 @@ Remover os assets que não são mais utilizados no projeto, sempre que lançar u
 #### Dicas
 ## Acessibilidade
 
-![inline](http://images.apple.com/support/assets/images/products/accessibility/hero_accessibility.png)
+![inline 150%](http://images.apple.com/support/assets/images/products/accessibility/hero_accessibility.png)
 
 ---
 
@@ -284,6 +286,8 @@ Remover os assets que não são mais utilizados no projeto, sempre que lançar u
 
 #### Ferramentas
 ## Distribuíção/Beta Test
+
+<br>
 
 ![inline 75%](http://core0.staticworld.net/images/article/2014/10/twitter-fabric-logo-100527200-primary.idge.jpg) ![inline 75%](http://media.idownloadblog.com/wp-content/uploads/2014/09/TestFlight-1.0-for-iOS-app-icon-small-220x220.png) ![inline](https://www.cloudbees.com/sites/default/files/hockeyapp_logo.png)
 
