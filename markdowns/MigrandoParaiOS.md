@@ -28,7 +28,7 @@ salmo@ciandt.com
 
 ---
 
-## Guidelines
+# Guidelines
 
 ---
 
@@ -67,7 +67,7 @@ salmo@ciandt.com
 
 ---
 
-## Serviços e Armazenamento
+# Serviços e Armazenamento
 
 ---
 
@@ -112,7 +112,7 @@ Arquivos não devem ser armazenados direto no banco
 
 ---
 
-## Hardware e Limitações
+# Hardware e Limitações
 
 ---
 
@@ -195,7 +195,7 @@ Remover os assets que não são mais utilizados no projeto, sempre que lançar u
 
 ---
 
-## Dicas
+# Dicas
 
 ---
 
@@ -209,7 +209,7 @@ Remover os assets que não são mais utilizados no projeto, sempre que lançar u
 #### Dicas
 ## Qual versão de iOS Suportar?
 
-![inline](../assets/iOSVersions.png)
+![inline 150%](../assets/iOSVersions.png)
 
 ---
 
@@ -234,7 +234,7 @@ Remover os assets que não são mais utilizados no projeto, sempre que lançar u
 
 ---
 
-## Ferramentas
+# Ferramentas
 
 ---
 
@@ -297,7 +297,8 @@ Remover os assets que não são mais utilizados no projeto, sempre que lançar u
 
 ---
 
-# Obrigado!
+# [fit]Obrigado!
+<br>
 ## salmo@ciandt.com
 ### @salmojr
 #### https://speakerdeck.com/salmojunior
