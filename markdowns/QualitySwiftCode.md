@@ -49,7 +49,7 @@ Nessa talk vamos configurar um ambiente com o SonarQube para automatizar a anál
 * Código mais estável e organizado
 * Devs. usando o tempo com o que gostam
 * Métricas centralizadas
-* Menor custo e menos sustos
+* Menor custo
 * Satisfação do cliente/usuário
 
 ---
@@ -75,7 +75,7 @@ Nessa talk vamos configurar um ambiente com o SonarQube para automatizar a anál
 # Ferramentas que vamos utilizar
 
 - [SonarQube Scanner](https://docs.sonarqube.org/display/SCAN/Analyzing+with+SonarQube+Scanner)
-- [Backelite Sonar-swift](https://github.com/salmojunior/sonar-swift)
+- [Backelite Sonar-swift](https://github.com/Backelite/sonar-swift)
 - [SwiftLint](https://github.com/realm/SwiftLint)
 - [Tailor](https://github.com/sleekbyte/tailor)
 - [slather](https://github.com/SlatherOrg/slather)
@@ -102,7 +102,7 @@ docker run -d --name sonarqube -p 9000:9000 -p 9092:9092 sonarqube
 
 # 2/12 - Instalar o puglin sonar-swift
 
-Baixar o plugin [Backelite Sonar-swift](https://github.com/salmojunior/sonar-swift) e adicionar a nossa instancia do SonarQube.
+Baixar o plugin [Backelite Sonar-swift](https://github.com/Backelite/sonar-swift) e adicionar a nossa instancia do SonarQube.
 
 - Baixar o plugin na pasta `'$SONARQUBE_HOME/extensions/plugins'`
 - Reiniciar o SonarQube
