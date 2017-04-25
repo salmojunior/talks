@@ -1,7 +1,6 @@
 build-lists: true
 
-# [fit]Entregando código 
-# [fit]**Swift**
+# [fit]Entregando código **Swift**
 # [fit]com qualidade
 
 ---
@@ -22,11 +21,22 @@ junior.salmo@gmail.com
 
 ---
 
-# Entregando código Swift com qualidade
+# Antes de começar... algumas perguntas! :)
 
-Nessa talk vamos configurar um ambiente com o SonarQube para análisar a qualidade de projetos Swift.
+---
 
-![inline](https://www.sonarqube.org/index/slide1.png) ![inline](https://www.sonarqube.org/index/slide2.png)
+# Perguntas
+
+- O que fazem para garantir a qualidade de seus projetos iOS?
+- Como fazem a coleta e companhamento de métricas?
+
+---
+
+# O que veremos hoje
+
+Nessa talk vamos configurar um ambiente com o SonarQube para automatizar a análise de qualidade de projetos Swift.
+
+![inline 90%](https://www.sonarqube.org/index/slide1.png) ![inline 90%](https://www.sonarqube.org/index/slide2.png)
 
 ---
 
@@ -36,29 +46,36 @@ Nessa talk vamos configurar um ambiente com o SonarQube para análisar a qualida
 
 # Motivações
 
-* Métricas centralizadas
 * Código mais estável e organizado
 * Devs. usando o tempo com o que gostam
+* Métricas centralizadas
+* Menor custo e menos sustos
 * Satisfação do cliente/usuário
-* Mais tempo e menor custo
 
 ---
 
-# Ferramentas
+# Pré-requisitos
 
 ---
 
-# Ferramentas
+# Pré-requisitos
 
+- Xcode 7 ou superior
+- [Homebrew](https://brew.sh/)
+- [PIP](https://pip.pypa.io/en/stable/installing/)
 - [SonarQube](https://docs.sonarqube.org/display/SONAR/Setup+and+Upgrade)
-- [SonarQube Scanner](https://docs.sonarqube.org/display/SCAN/Analyzing+with+SonarQube+Scanner)
-- [Backelite Sonar-swift](https://github.com/salmojunior/sonar-swift)
 - [Docker](https://www.docker.com/) - (Opcional)
 
 ---
 
 # Ferramentas
 
+---
+
+# Ferramentas que vamos utilizar
+
+- [SonarQube Scanner](https://docs.sonarqube.org/display/SCAN/Analyzing+with+SonarQube+Scanner)
+- [Backelite Sonar-swift](https://github.com/salmojunior/sonar-swift)
 - [SwiftLint](https://github.com/realm/SwiftLint)
 - [Tailor](https://github.com/sleekbyte/tailor)
 - [slather](https://github.com/SlatherOrg/slather)
@@ -67,7 +84,7 @@ Nessa talk vamos configurar um ambiente com o SonarQube para análisar a qualida
 
 ---
 
-# Passo a Passo
+# Mãos à obra :)
 
 ---
 
@@ -136,7 +153,7 @@ gem install slather
 
 # 7/12 - Instalar o Lizard
 
-O [Lizard](https://github.com/terryyin/lizard) faz a análise de complexidade ciclomática de código para várias linguagens. Para a sua instalação você vai precisar do gerenciador de pacotes [PIP](https://pip.pypa.io/en/stable/installing/).
+O [Lizard](https://github.com/terryyin/lizard) faz a análise de complexidade ciclomática de código para várias linguagens.
 
 <br>
 
@@ -209,7 +226,7 @@ Faça uma cópia local do script [run-sonar-swift.sh](https://raw.githubusercont
 
 # 12/12 - Volte para o SonarQube
 
-Se todos os passos foram seguidos, basta atualizar a página e você terá uma visão completa sobre a qualidade do seu projeto. :)
+Se todos os passos foram seguidos corretamente, basta atualizar a página e você terá uma visão sobre a qualidade do seu projeto. :)
 
 <br>
 
@@ -217,14 +234,15 @@ Se todos os passos foram seguidos, basta atualizar a página e você terá uma v
 
 ---
 
-# Pontos a favor
+# Benefícios
 
 ---
 
-# Pontos a favor
+# Benefícios
 
-- Todas as ferramentas são gratuitas e open-source
-- Sem necessidade de alterações no projeto
+- Custo baixo (Todas as ferramentas são gratuitas e open-source)
+- Code Review mais rápido e focado no que realmente interessa
+- Sem necessidade de alterações e adição de dependências no projeto
 - Fácil configuração e acompanhamento
 
 ---
@@ -235,8 +253,12 @@ Se todos os passos foram seguidos, basta atualizar a página e você terá uma v
 
 # Dicas
 
-- Integre ao seu ambiente de CI, exemplo: [Jenkins](https://docs.sonarqube.org/display/SCAN/Analyzing+with+SonarQube+Scanner+for+Jenkins).
-- Utilize com o [Fastlane](https://github.com/Backelite/sonar-swift/blob/develop/docs/sonarqube-fastlane.md)
+- Configure preferencialmente no início do projeto
+- Vincule como mais um *step* do seu *job* de CI, exemplo: [Jenkins](https://docs.sonarqube.org/display/SCAN/Analyzing+with+SonarQube+Scanner+for+Jenkins)
+- Adicione à sua [lane](https://github.com/Backelite/sonar-swift/blob/develop/docs/sonarqube-fastlane.md), caso já utilize o Fastlane
+- Issues críticas e bloqueantes não devem existir
+- Converta ociosidade em refatoração de código
+- O Dashboard deve ser acessível a todos do time
 
 ---
 
