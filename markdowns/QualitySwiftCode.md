@@ -7,27 +7,28 @@ build-lists: true
 
 ## Salmo Junior
 
-- Chapter Leader do CocoaHeadsBH
+- Chapter Leader do CocoaHeads BH
 - Dev iOS desde 2011
-- Corinthiano
+- Mineiro
+- Corintiano
 - Viajante
 
 ![left](../assets/EU.png)
 
-<br><br><br><br><br><br><br><br>
+<br><br><br><br>
 
 junior.salmo@gmail.com
 @salmojr 
 
 ---
 
-# Antes de começar... algumas perguntas! :)
+# Antes de começar... algumas perguntas!
 
 ---
 
 # Perguntas
 
-- O que fazem para garantir a qualidade de seus projetos iOS?
+- O que vocês fazem para garantir a qualidade de seus projetos iOS?
 - Como fazem a coleta e companhamento de métricas?
 
 ---
@@ -64,7 +65,7 @@ Nessa talk vamos configurar um ambiente com o SonarQube para automatizar a anál
 - [Homebrew](https://brew.sh/)
 - [PIP](https://pip.pypa.io/en/stable/installing/)
 - [SonarQube](https://docs.sonarqube.org/display/SONAR/Setup+and+Upgrade)
-- [Docker](https://www.docker.com/) - (Opcional)
+- [Docker](https://www.docker.com/)
 
 ---
 
@@ -117,7 +118,7 @@ Baixar o plugin [Backelite Sonar-swift](https://github.com/Backelite/sonar-swift
 
 # 4/12 - Instalar o SwiftLint
 
-O [SwiftLint](https://github.com/realm/SwiftLint) vai nos ajudar a fazer a análise estática e controle de code style. Instalar versão 0.3.0 ou acima.
+O [SwiftLint](https://github.com/realm/SwiftLint) vai nos ajudar a fazer a análise estática e controle de code style. Instalar versão 0.18.1.
 
 <br>
 
@@ -244,6 +245,7 @@ Se todos os passos foram seguidos corretamente, basta atualizar a página e voc�
 - Code Review mais rápido e focado no que realmente interessa
 - Sem necessidade de alterações e adição de dependências no projeto
 - Fácil configuração e acompanhamento
+- Melhoria contínua
 
 ---
 
