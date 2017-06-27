@@ -33,7 +33,7 @@ junior.salmo@gmail.com
 
 # Advanced Breakpoints
 
-Xcode breakpoints offer a number of different features and making use of them we can bring our debug experience to another level.
+Xcode breakpoints offers us serveral great features in order to improve our debug experience, pushing us to another level as developers.
 
 - Add conditions and actions
 - Inject code instructions at runtime
@@ -46,7 +46,7 @@ Xcode breakpoints offer a number of different features and making use of them we
 
 # Adding conditions and actions
 
-Conditional breakpoints will only break when the condition is true, and any valid code that evaluates to a boolean can be used here. You can use any variable that is available in the scope of the breakpoint.
+Conditional breakpoints will only break when the condition is true, and any valid code that evaluates to a boolean can be used here. You can also use any variable available on the same scope where the break point is placed.
  
 ![inline 100%](../assets/breakpointconditions.png)
 
@@ -54,7 +54,7 @@ Conditional breakpoints will only break when the condition is true, and any vali
 
 # Injecting code instructions at runtime
 
-Stop putting hard-code data in your code during repetitive tests. It's dangerous. With breakpoint actions and lldb expressions there is no necessity to rebuild the app.
+Stop adding hard-coded data during repetitive tests. It’s dangerous. With breakpoint actions and lldb expressions, there’s no need to rebuild the app.
 
 ![inline 100%](../assets/breakpointactions.png)
 
@@ -105,7 +105,7 @@ Breakpoints Navigator  =  command + 7
 
 # Type Lookup
 
-The type lookup command allow you to get information about any type in the system.
+The type lookup command allows you to get information about any type in the system.
 Basically it's a header-like representation that you can get right there in the debugger to remind you about the contents of the type.
 
 ![inline 100%](../assets/typelookup.png)
@@ -157,7 +157,7 @@ When **lldb** is not able to print an object type properly, a simple *import* ca
 
 # Xcode View Debugging
 
-Available since Xcode 6 this features helps to analize view layers and easily identify and fix issues in an app's user interface.
+Available since Xcode 6 this feature helps to analize view layers and easily identify and fix issues in an app's user interface.
 
 <br>
 
